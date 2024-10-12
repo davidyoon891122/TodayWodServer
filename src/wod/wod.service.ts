@@ -1,26 +1,24 @@
 import { Injectable } from '@nestjs/common';
 import { CreateWodDto } from './dto/create-wod.dto';
 import { UpdateWodDto } from './dto/update-wod.dto';
+import { Program } from './entities/program.entity';
+// import { v4 as uuidv4 } from 'uuid';
+import { WeeklyWorkout } from './entities/weeklyWorkout.entity';
+import { randomUUID } from 'crypto';
 
 @Injectable()
 export class WodService {
-  create(createWodDto: CreateWodDto) {
-    return 'This action adds a new wod';
+  findProgram(method: string, level: string) {
+    return this.createProgram(method, level);
   }
 
-  findAll() {
-    return `This action returns all wod`;
-  }
+  createProgram(method: string, level: string) {
+    const program = new Program();
+    program.id = randomUUID();
+    program.level = level;
+    program.methodType = method;
+    program.weeklyWorkouts = [];
 
-  findOne(id: number) {
-    return `This action returns a #${id} wod`;
-  }
-
-  update(id: number, updateWodDto: UpdateWodDto) {
-    return `This action updates a #${id} wod`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} wod`;
+    return program;
   }
 }
