@@ -1,14 +1,24 @@
-import { Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import {
   bodyAdvancedA,
+  bodyAdvancedB,
+  bodyAdvancedC,
   bodyBegginerA,
+  bodyBegginerB,
+  bodyBegginerC,
   bodyElementaryA,
+  bodyElementaryB,
+  bodyElementaryC,
   bodyIntermediateA,
+  bodyIntermediateB,
+  bodyIntermediateC,
+} from './entities/mock/bodyProgram.data';
+import {
   machineAdvancedA,
   machineBeginnerA,
   machineElementaryA,
   machineIntermediateA,
-} from './entities/program.data';
+} from './entities/mock/machineProgram.data';
 
 @Injectable()
 export class WodService {
@@ -18,13 +28,25 @@ export class WodService {
 
   createProgram(method: string, level: string) {
     if (method == 'body' && level == 'beginner') {
-      return bodyBegginerA; // A, B, C 중 랜덤하게 데이터 내려가도록 변경
+      const randomIndex = this.getRandomIndex();
+      const dataArray = [bodyBegginerA, bodyBegginerB, bodyBegginerC];
+      return dataArray[randomIndex];
     } else if (method == 'body' && level == 'elementary') {
-      return bodyElementaryA;
+      const randomIndex = this.getRandomIndex();
+      const dataArray = [bodyElementaryA, bodyElementaryB, bodyElementaryC];
+      return dataArray[randomIndex];
     } else if (method == 'body' && level == 'intermediate') {
-      return bodyIntermediateA;
+      const randomIndex = this.getRandomIndex();
+      const dataArray = [
+        bodyIntermediateA,
+        bodyIntermediateB,
+        bodyIntermediateC,
+      ];
+      return dataArray[randomIndex];
     } else if (method == 'body' && level == 'advanced') {
-      return bodyAdvancedA;
+      const randomIndex = this.getRandomIndex();
+      const dataArray = [bodyAdvancedA, bodyAdvancedB, bodyAdvancedC];
+      return dataArray[randomIndex];
     }
 
     if (method == 'machine' && level == 'beginner') {
@@ -35,8 +57,13 @@ export class WodService {
       return machineIntermediateA;
     } else if (method == 'machine' && level == 'advanced') {
       return machineAdvancedA;
+    } else {
+      throw new BadRequestException('Invalid parameter');
     }
+  }
 
-    return 'no programs';
+  getRandomIndex() {
+    const randomIndex = Math.floor(Math.random() * 3);
+    return randomIndex;
   }
 }
