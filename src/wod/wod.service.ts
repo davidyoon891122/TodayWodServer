@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import {
   bodyAdvancedA,
   bodyBegginerA,
@@ -35,8 +35,8 @@ export class WodService {
       return machineIntermediateA;
     } else if (method == 'machine' && level == 'advanced') {
       return machineAdvancedA;
+    } else {
+      throw new BadRequestException('Invalid parameter');
     }
-
-    return 'no programs';
   }
 }
