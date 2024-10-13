@@ -1,5 +1,5 @@
-import { WodType } from './program.entity';
 import { Wod } from './wod.entity';
+import { WodType } from './type/wod.type';
 
 export class DayWorkout {
   id: string;
