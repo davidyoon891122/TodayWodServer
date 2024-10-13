@@ -6,6 +6,6 @@ export class Wod {
   subTitle: string;
   unit: string;
   unitValue: number;
-  set: number;
-  wodSet: Array<WodSet>;
+  set?: number;
+  wodSet?: Array<WodSet>;
 }

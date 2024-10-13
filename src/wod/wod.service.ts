@@ -1,8 +1,11 @@
 import { Injectable } from '@nestjs/common';
-import { CreateWodDto } from './dto/create-wod.dto';
-import { UpdateWodDto } from './dto/update-wod.dto';
-import { Program } from './entities/program.entity';
-// import { v4 as uuidv4 } from 'uuid';
+import {
+  bodyAdvancedA,
+  bodyBegginerA,
+  bodyElementaryA,
+  bodyIntermediateA,
+  Program,
+} from './entities/program.entity';
 import { WeeklyWorkout } from './entities/weeklyWorkout.entity';
 import { randomUUID } from 'crypto';
 
@@ -13,12 +16,16 @@ export class WodService {
   }
 
   createProgram(method: string, level: string) {
-    const program = new Program();
-    program.id = randomUUID();
-    program.level = level;
-    program.methodType = method;
-    program.weeklyWorkouts = [];
+    if (method == 'body' && level == 'beginner') {
+      return bodyBegginerA;
+    } else if (method == 'body' && level == 'elementary') {
+      return bodyElementaryA;
+    } else if (method == 'body' && level == 'intermediate') {
+      return bodyIntermediateA;
+    } else if (method == 'body' && level == 'advanced') {
+      return bodyAdvancedA;
+    }
 
-    return program;
+    return 'no programs';
   }
 }
