@@ -1,26 +1,42 @@
 import { Injectable } from '@nestjs/common';
-import { CreateWodDto } from './dto/create-wod.dto';
-import { UpdateWodDto } from './dto/update-wod.dto';
+import {
+  bodyAdvancedA,
+  bodyBegginerA,
+  bodyElementaryA,
+  bodyIntermediateA,
+  machineAdvancedA,
+  machineBeginnerA,
+  machineElementaryA,
+  machineIntermediateA,
+} from './entities/program.data';
 
 @Injectable()
 export class WodService {
-  create(createWodDto: CreateWodDto) {
-    return 'This action adds a new wod';
+  findProgram(method: string, level: string) {
+    return this.createProgram(method, level);
   }
 
-  findAll() {
-    return `This action returns all wod`;
-  }
+  createProgram(method: string, level: string) {
+    if (method == 'body' && level == 'beginner') {
+      return bodyBegginerA; // A, B, C 중 랜덤하게 데이터 내려가도록 변경
+    } else if (method == 'body' && level == 'elementary') {
+      return bodyElementaryA;
+    } else if (method == 'body' && level == 'intermediate') {
+      return bodyIntermediateA;
+    } else if (method == 'body' && level == 'advanced') {
+      return bodyAdvancedA;
+    }
 
-  findOne(id: number) {
-    return `This action returns a #${id} wod`;
-  }
+    if (method == 'machine' && level == 'beginner') {
+      return machineBeginnerA;
+    } else if (method == 'machine' && level == 'elementary') {
+      return machineElementaryA;
+    } else if (method == 'machine' && level == 'intermediate') {
+      return machineIntermediateA;
+    } else if (method == 'machine' && level == 'advanced') {
+      return machineAdvancedA;
+    }
 
-  update(id: number, updateWodDto: UpdateWodDto) {
-    return `This action updates a #${id} wod`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} wod`;
+    return 'no programs';
   }
 }
