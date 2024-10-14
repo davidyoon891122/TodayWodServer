@@ -1,4 +1,4 @@
-import { DayWorkout } from './weeklyWorkout.entity';
+import { DayWorkout } from './dayWorkout.entity';
 import { MethodType } from './type/method.type';
 import { LevelType } from './type/level.type';
 
