@@ -9,16 +9,16 @@ export const machineBeginnerA: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.beginner,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 265,
-      maxExpectedCalories: 265,
-      dayWorkouts: [
+      minExpectedCalorie: 265,
+      maxExpectedCalorie: 265,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -50,7 +50,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -78,7 +78,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -106,7 +106,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -157,9 +157,9 @@ export const machineBeginnerA: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 320,
-      maxExpectedCalories: 320,
-      dayWorkouts: [
+      minExpectedCalorie: 320,
+      maxExpectedCalorie: 320,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -191,7 +191,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -219,7 +219,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -247,7 +247,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -298,9 +298,9 @@ export const machineBeginnerA: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 30,
-      minExpectedCalories: 295,
-      maxExpectedCalories: 295,
-      dayWorkouts: [
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -332,7 +332,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -360,7 +360,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -388,7 +388,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -439,9 +439,9 @@ export const machineBeginnerA: Program = {
       title: '전신 운동',
       subTitle: 'Full Body Conditioning',
       expectedMinute: 30,
-      minExpectedCalories: 300,
-      maxExpectedCalories: 300,
-      dayWorkouts: [
+      minExpectedCalorie: 300,
+      maxExpectedCalorie: 300,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -517,9 +517,9 @@ export const machineBeginnerA: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 305,
-      maxExpectedCalories: 305,
-      dayWorkouts: [
+      minExpectedCalorie: 305,
+      maxExpectedCalorie: 305,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -558,7 +558,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -586,7 +586,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -637,9 +637,9 @@ export const machineBeginnerA: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 335,
-      maxExpectedCalories: 335,
-      dayWorkouts: [
+      minExpectedCalorie: 335,
+      maxExpectedCalorie: 335,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -685,7 +685,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -737,16 +737,16 @@ export const machineBeginnerB: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.beginner,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 205,
-      maxExpectedCalories: 205,
-      dayWorkouts: [
+      minExpectedCalorie: 205,
+      maxExpectedCalorie: 205,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -778,7 +778,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -806,7 +806,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -834,7 +834,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -885,9 +885,9 @@ export const machineBeginnerB: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 195,
-      maxExpectedCalories: 195,
-      dayWorkouts: [
+      minExpectedCalorie: 195,
+      maxExpectedCalorie: 195,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -919,7 +919,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -947,7 +947,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -975,7 +975,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1026,9 +1026,9 @@ export const machineBeginnerB: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 30,
-      minExpectedCalories: 205,
-      maxExpectedCalories: 205,
-      dayWorkouts: [
+      minExpectedCalorie: 205,
+      maxExpectedCalorie: 205,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1060,7 +1060,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1088,7 +1088,7 @@ export const machineBeginnerB: Program = {
               unit: 'minutes',
               set: 2,
               unitValue: 1,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1110,7 +1110,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1161,9 +1161,9 @@ export const machineBeginnerB: Program = {
       title: '전신 운동',
       subTitle: 'Full Body Conditioning',
       expectedMinute: 35,
-      minExpectedCalories: 345,
-      maxExpectedCalories: 345,
-      dayWorkouts: [
+      minExpectedCalorie: 345,
+      maxExpectedCalorie: 345,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1239,9 +1239,9 @@ export const machineBeginnerB: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 310,
-      maxExpectedCalories: 310,
-      dayWorkouts: [
+      minExpectedCalorie: 310,
+      maxExpectedCalorie: 310,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1280,7 +1280,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1308,7 +1308,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1359,9 +1359,9 @@ export const machineBeginnerB: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 295,
-      maxExpectedCalories: 295,
-      dayWorkouts: [
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1407,7 +1407,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 2,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1453,16 +1453,16 @@ export const machineBeginnerC: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.beginner,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 215,
-      maxExpectedCalories: 215,
-      dayWorkouts: [
+      minExpectedCalorie: 215,
+      maxExpectedCalorie: 215,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1494,7 +1494,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1522,7 +1522,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1550,7 +1550,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1601,9 +1601,9 @@ export const machineBeginnerC: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 225,
-      maxExpectedCalories: 225,
-      dayWorkouts: [
+      minExpectedCalorie: 225,
+      maxExpectedCalorie: 225,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1635,7 +1635,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1663,7 +1663,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1691,7 +1691,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1742,9 +1742,9 @@ export const machineBeginnerC: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 30,
-      minExpectedCalories: 175,
-      maxExpectedCalories: 175,
-      dayWorkouts: [
+      minExpectedCalorie: 175,
+      maxExpectedCalorie: 175,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1776,7 +1776,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1804,7 +1804,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1832,7 +1832,7 @@ export const machineBeginnerC: Program = {
               unit: 'minutes',
               set: 2,
               unitValue: 1,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1877,9 +1877,9 @@ export const machineBeginnerC: Program = {
       title: '전신 운동',
       subTitle: 'Full Body Conditioning',
       expectedMinute: 35,
-      minExpectedCalories: 365,
-      maxExpectedCalories: 365,
-      dayWorkouts: [
+      minExpectedCalorie: 365,
+      maxExpectedCalorie: 365,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1955,9 +1955,9 @@ export const machineBeginnerC: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 27,
-      minExpectedCalories: 305,
-      maxExpectedCalories: 305,
-      dayWorkouts: [
+      minExpectedCalorie: 305,
+      maxExpectedCalorie: 305,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1996,7 +1996,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2024,7 +2024,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2075,9 +2075,9 @@ export const machineBeginnerC: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 34,
-      minExpectedCalories: 280,
-      maxExpectedCalories: 280,
-      dayWorkouts: [
+      minExpectedCalorie: 280,
+      maxExpectedCalorie: 280,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2123,7 +2123,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 2,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2170,16 +2170,16 @@ export const machineElementaryA: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.elementary,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 295,
-      maxExpectedCalories: 295,
-      dayWorkouts: [
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2218,7 +2218,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2246,7 +2246,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2274,7 +2274,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2302,7 +2302,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2353,9 +2353,9 @@ export const machineElementaryA: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 295,
-      maxExpectedCalories: 295,
-      dayWorkouts: [
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2394,7 +2394,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2422,7 +2422,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2450,7 +2450,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2478,7 +2478,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2529,9 +2529,9 @@ export const machineElementaryA: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 30,
-      minExpectedCalories: 275,
-      maxExpectedCalories: 275,
-      dayWorkouts: [
+      minExpectedCalorie: 275,
+      maxExpectedCalorie: 275,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2570,7 +2570,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2598,7 +2598,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2626,7 +2626,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2654,7 +2654,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2705,9 +2705,9 @@ export const machineElementaryA: Program = {
       title: '전신 운동',
       subTitle: 'Full Body Conditioning',
       expectedMinute: 30,
-      minExpectedCalories: 495,
-      maxExpectedCalories: 495,
-      dayWorkouts: [
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2797,9 +2797,9 @@ export const machineElementaryA: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 310,
-      maxExpectedCalories: 310,
-      dayWorkouts: [
+      minExpectedCalorie: 310,
+      maxExpectedCalorie: 310,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2845,7 +2845,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2873,7 +2873,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2901,7 +2901,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2952,9 +2952,9 @@ export const machineElementaryA: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 325,
-      maxExpectedCalories: 325,
-      dayWorkouts: [
+      minExpectedCalorie: 325,
+      maxExpectedCalorie: 325,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3007,7 +3007,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3035,7 +3035,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 20,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3087,16 +3087,16 @@ export const machineElementaryB: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.elementary,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 428,
-      maxExpectedCalories: 428,
-      dayWorkouts: [
+      minExpectedCalorie: 428,
+      maxExpectedCalorie: 428,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3135,7 +3135,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3163,7 +3163,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3191,7 +3191,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3219,7 +3219,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3270,9 +3270,9 @@ export const machineElementaryB: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 382,
-      maxExpectedCalories: 382,
-      dayWorkouts: [
+      minExpectedCalorie: 382,
+      maxExpectedCalorie: 382,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3311,7 +3311,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3339,7 +3339,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3367,7 +3367,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3395,7 +3395,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3446,9 +3446,9 @@ export const machineElementaryB: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 30,
-      minExpectedCalories: 321,
-      maxExpectedCalories: 321,
-      dayWorkouts: [
+      minExpectedCalorie: 321,
+      maxExpectedCalorie: 321,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3487,7 +3487,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3515,7 +3515,7 @@ export const machineElementaryB: Program = {
               unit: 'minutes',
               set: 2,
               unitValue: 1,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3537,7 +3537,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3565,7 +3565,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3616,9 +3616,9 @@ export const machineElementaryB: Program = {
       title: '전신 운동',
       subTitle: 'Full Body Conditioning',
       expectedMinute: 45,
-      minExpectedCalories: 515,
-      maxExpectedCalories: 515,
-      dayWorkouts: [
+      minExpectedCalorie: 515,
+      maxExpectedCalorie: 515,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3708,9 +3708,9 @@ export const machineElementaryB: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 45,
-      minExpectedCalories: 480,
-      maxExpectedCalories: 480,
-      dayWorkouts: [
+      minExpectedCalorie: 480,
+      maxExpectedCalorie: 480,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3803,9 +3803,9 @@ export const machineElementaryB: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 45,
-      minExpectedCalories: 495,
-      maxExpectedCalories: 495,
-      dayWorkouts: [
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3898,16 +3898,16 @@ export const machineElementaryC: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.elementary,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 45,
-      minExpectedCalories: 355,
-      maxExpectedCalories: 355,
-      dayWorkouts: [
+      minExpectedCalorie: 355,
+      maxExpectedCalorie: 355,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4001,9 +4001,9 @@ export const machineElementaryC: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 45,
-      minExpectedCalories: 345,
-      maxExpectedCalories: 345,
-      dayWorkouts: [
+      minExpectedCalorie: 345,
+      maxExpectedCalorie: 345,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4097,9 +4097,9 @@ export const machineElementaryC: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 45,
-      minExpectedCalories: 295,
-      maxExpectedCalories: 295,
-      dayWorkouts: [
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4193,9 +4193,9 @@ export const machineElementaryC: Program = {
       title: '전신 운동',
       subTitle: 'Full Body Conditioning',
       expectedMinute: 45,
-      minExpectedCalories: 440,
-      maxExpectedCalories: 440,
-      dayWorkouts: [
+      minExpectedCalorie: 440,
+      maxExpectedCalorie: 440,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4289,9 +4289,9 @@ export const machineElementaryC: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 45,
-      minExpectedCalories: 390,
-      maxExpectedCalories: 390,
-      dayWorkouts: [
+      minExpectedCalorie: 390,
+      maxExpectedCalorie: 390,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4385,9 +4385,9 @@ export const machineElementaryC: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 45,
-      minExpectedCalories: 395,
-      maxExpectedCalories: 395,
-      dayWorkouts: [
+      minExpectedCalorie: 395,
+      maxExpectedCalorie: 395,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4483,16 +4483,16 @@ export const machineIntermediateA: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.intermediate,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 525,
-      maxExpectedCalories: 525,
-      dayWorkouts: [
+      minExpectedCalorie: 525,
+      maxExpectedCalorie: 525,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4531,7 +4531,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4565,7 +4565,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4599,7 +4599,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4627,7 +4627,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4678,9 +4678,9 @@ export const machineIntermediateA: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 525,
-      maxExpectedCalories: 525,
-      dayWorkouts: [
+      minExpectedCalorie: 525,
+      maxExpectedCalorie: 525,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4719,7 +4719,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4753,7 +4753,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4787,7 +4787,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4815,7 +4815,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4866,9 +4866,9 @@ export const machineIntermediateA: Program = {
       title: '코어 강화 및 복합 운동',
       subTitle: 'Core Strength & Compound Movements',
       expectedMinute: 30,
-      minExpectedCalories: 455,
-      maxExpectedCalories: 455,
-      dayWorkouts: [
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4907,7 +4907,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4941,7 +4941,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4969,7 +4969,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4997,7 +4997,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5048,9 +5048,9 @@ export const machineIntermediateA: Program = {
       title: '전신 고강도 운동',
       subTitle: 'Full Body High-Intensity Training',
       expectedMinute: 30,
-      minExpectedCalories: 550,
-      maxExpectedCalories: 550,
-      dayWorkouts: [
+      minExpectedCalorie: 550,
+      maxExpectedCalorie: 550,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -5089,7 +5089,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5137,7 +5137,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5188,9 +5188,9 @@ export const machineIntermediateA: Program = {
       title: '상체 지구력 및 근지구력',
       subTitle: 'Upper Body Endurance & Muscular Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 435,
-      maxExpectedCalories: 435,
-      dayWorkouts: [
+      minExpectedCalorie: 435,
+      maxExpectedCalorie: 435,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -5229,7 +5229,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5263,7 +5263,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5291,7 +5291,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5319,7 +5319,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5370,9 +5370,9 @@ export const machineIntermediateA: Program = {
       title: '하체 지구력 및 근지구력',
       subTitle: 'Lower Body Endurance & Muscular Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 495,
-      maxExpectedCalories: 495,
-      dayWorkouts: [
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -5411,7 +5411,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5445,7 +5445,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5473,7 +5473,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5501,7 +5501,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5553,16 +5553,16 @@ export const machineIntermediateB: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.intermediate,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 40,
-      minExpectedCalories: 405,
-      maxExpectedCalories: 405,
-      dayWorkouts: [
+      minExpectedCalorie: 405,
+      maxExpectedCalorie: 405,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -5656,9 +5656,9 @@ export const machineIntermediateB: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 45,
-      minExpectedCalories: 455,
-      maxExpectedCalories: 455,
-      dayWorkouts: [
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -5697,7 +5697,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5731,7 +5731,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5759,7 +5759,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5787,7 +5787,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5838,9 +5838,9 @@ export const machineIntermediateB: Program = {
       title: '코어 집중 및 복합 운동',
       subTitle: 'Core Focus & Compound Movements',
       expectedMinute: 45,
-      minExpectedCalories: 455,
-      maxExpectedCalories: 455,
-      dayWorkouts: [
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -5879,7 +5879,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5913,7 +5913,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5941,7 +5941,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -5969,7 +5969,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6020,9 +6020,9 @@ export const machineIntermediateB: Program = {
       title: '고강도 전신 운동',
       subTitle: 'High-Intensity Training',
       expectedMinute: 45,
-      minExpectedCalories: 530,
-      maxExpectedCalories: 530,
-      dayWorkouts: [
+      minExpectedCalorie: 530,
+      maxExpectedCalorie: 530,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -6061,7 +6061,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6109,7 +6109,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6160,9 +6160,9 @@ export const machineIntermediateB: Program = {
       title: '상체 지구력 및 근지구력',
       subTitle: 'Upper Body Endurance & Muscular Endurance',
       expectedMinute: 45,
-      minExpectedCalories: 455,
-      maxExpectedCalories: 455,
-      dayWorkouts: [
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -6201,7 +6201,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6235,7 +6235,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6263,7 +6263,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6291,7 +6291,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6342,9 +6342,9 @@ export const machineIntermediateB: Program = {
       title: '하체 지구력 및 근지구력',
       subTitle: 'Lower Body Endurance & Muscular Endurance',
       expectedMinute: 45,
-      minExpectedCalories: 485,
-      maxExpectedCalories: 485,
-      dayWorkouts: [
+      minExpectedCalorie: 485,
+      maxExpectedCalorie: 485,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -6383,7 +6383,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6417,7 +6417,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6445,7 +6445,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6473,7 +6473,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6525,16 +6525,16 @@ export const machineIntermediateC: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.intermediate,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 45,
-      minExpectedCalories: 445,
-      maxExpectedCalories: 445,
-      dayWorkouts: [
+      minExpectedCalorie: 445,
+      maxExpectedCalorie: 445,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -6573,7 +6573,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6607,7 +6607,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6641,7 +6641,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6669,7 +6669,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6720,9 +6720,9 @@ export const machineIntermediateC: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 45,
-      minExpectedCalories: 425,
-      maxExpectedCalories: 425,
-      dayWorkouts: [
+      minExpectedCalorie: 425,
+      maxExpectedCalorie: 425,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -6761,7 +6761,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6795,7 +6795,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6823,7 +6823,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6851,7 +6851,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6902,9 +6902,9 @@ export const machineIntermediateC: Program = {
       title: '코어 집중 및 복합 운동',
       subTitle: 'Core Focus & Compound Movements',
       expectedMinute: 45,
-      minExpectedCalories: 455,
-      maxExpectedCalories: 455,
-      dayWorkouts: [
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -6943,7 +6943,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -6977,7 +6977,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7005,7 +7005,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7033,7 +7033,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7084,9 +7084,9 @@ export const machineIntermediateC: Program = {
       title: '고강도 전신 운동',
       subTitle: 'High-Intensity Training',
       expectedMinute: 45,
-      minExpectedCalories: 540,
-      maxExpectedCalories: 540,
-      dayWorkouts: [
+      minExpectedCalorie: 540,
+      maxExpectedCalorie: 540,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -7125,7 +7125,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7173,7 +7173,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7224,9 +7224,9 @@ export const machineIntermediateC: Program = {
       title: '상체 지구력 및 근지구력',
       subTitle: 'Upper Body Endurance & Muscular Endurance',
       expectedMinute: 45,
-      minExpectedCalories: 435,
-      maxExpectedCalories: 435,
-      dayWorkouts: [
+      minExpectedCalorie: 435,
+      maxExpectedCalorie: 435,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -7265,7 +7265,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7299,7 +7299,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7327,7 +7327,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7355,7 +7355,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7406,9 +7406,9 @@ export const machineIntermediateC: Program = {
       title: '하체 지구력 및 근지구력',
       subTitle: 'Lower Body Endurance & Muscular Endurance',
       expectedMinute: 45,
-      minExpectedCalories: 465,
-      maxExpectedCalories: 465,
-      dayWorkouts: [
+      minExpectedCalorie: 465,
+      maxExpectedCalorie: 465,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -7447,7 +7447,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7481,7 +7481,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7509,7 +7509,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7537,7 +7537,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7590,16 +7590,16 @@ export const machineAdvancedA: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.advanced,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 705,
-      maxExpectedCalories: 705,
-      dayWorkouts: [
+      minExpectedCalorie: 705,
+      maxExpectedCalorie: 705,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -7625,7 +7625,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7677,7 +7677,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7723,7 +7723,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7769,7 +7769,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7815,7 +7815,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7884,9 +7884,9 @@ export const machineAdvancedA: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 682,
-      maxExpectedCalories: 682,
-      dayWorkouts: [
+      minExpectedCalorie: 682,
+      maxExpectedCalorie: 682,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -7905,7 +7905,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -7951,7 +7951,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8003,7 +8003,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8049,7 +8049,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8095,7 +8095,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8141,7 +8141,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8210,9 +8210,9 @@ export const machineAdvancedA: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 30,
-      minExpectedCalories: 450,
-      maxExpectedCalories: 450,
-      dayWorkouts: [
+      minExpectedCalorie: 450,
+      maxExpectedCalorie: 450,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -8238,7 +8238,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8297,7 +8297,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8343,7 +8343,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8389,7 +8389,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8458,9 +8458,9 @@ export const machineAdvancedA: Program = {
       title: '전신 고강도 운동',
       subTitle: 'Full Body High-Intensity Training',
       expectedMinute: 30,
-      minExpectedCalories: 705,
-      maxExpectedCalories: 705,
-      dayWorkouts: [
+      minExpectedCalorie: 705,
+      maxExpectedCalorie: 705,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -8499,7 +8499,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8559,7 +8559,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8616,9 +8616,9 @@ export const machineAdvancedA: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 505,
-      maxExpectedCalories: 505,
-      dayWorkouts: [
+      minExpectedCalorie: 505,
+      maxExpectedCalorie: 505,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -8657,7 +8657,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8703,7 +8703,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8737,7 +8737,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8771,7 +8771,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8828,9 +8828,9 @@ export const machineAdvancedA: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 505,
-      maxExpectedCalories: 505,
-      dayWorkouts: [
+      minExpectedCalorie: 505,
+      maxExpectedCalorie: 505,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -8869,7 +8869,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8915,7 +8915,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8949,7 +8949,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -8983,7 +8983,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9041,16 +9041,16 @@ export const machineAdvancedB: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.advanced,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력 및 파워',
       subTitle: 'Upper Body Strength & Power',
       expectedMinute: 60,
-      minExpectedCalories: 685,
-      maxExpectedCalories: 685,
-      dayWorkouts: [
+      minExpectedCalorie: 685,
+      maxExpectedCalorie: 685,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -9089,7 +9089,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9129,7 +9129,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9169,7 +9169,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9203,7 +9203,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9260,9 +9260,9 @@ export const machineAdvancedB: Program = {
       title: '하체 근력 및 파워',
       subTitle: 'Lower Body Strength & Power',
       expectedMinute: 60,
-      minExpectedCalories: 558,
-      maxExpectedCalories: 558,
-      dayWorkouts: [
+      minExpectedCalorie: 558,
+      maxExpectedCalorie: 558,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -9301,7 +9301,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9341,7 +9341,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9375,7 +9375,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9409,7 +9409,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9466,9 +9466,9 @@ export const machineAdvancedB: Program = {
       title: '코어 집중 및 복합 운동',
       subTitle: 'Core Focus & Compound Movements',
       expectedMinute: 60,
-      minExpectedCalories: 495,
-      maxExpectedCalories: 495,
-      dayWorkouts: [
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -9507,7 +9507,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9547,7 +9547,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9581,7 +9581,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9615,7 +9615,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9672,9 +9672,9 @@ export const machineAdvancedB: Program = {
       title: '고강도 전신 운동',
       subTitle: 'High-Intensity Full Body Workout',
       expectedMinute: 75,
-      minExpectedCalories: 815,
-      maxExpectedCalories: 815,
-      dayWorkouts: [
+      minExpectedCalorie: 815,
+      maxExpectedCalorie: 815,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -9713,7 +9713,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9767,7 +9767,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9824,9 +9824,9 @@ export const machineAdvancedB: Program = {
       title: '상체 지구력 및 근지구력',
       subTitle: 'Upper Body Endurance & Muscular Endurance',
       expectedMinute: 75,
-      minExpectedCalories: 495,
-      maxExpectedCalories: 495,
-      dayWorkouts: [
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -9865,7 +9865,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9905,7 +9905,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9939,7 +9939,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -9973,7 +9973,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10030,9 +10030,9 @@ export const machineAdvancedB: Program = {
       title: '하체 지구력 및 근지구력',
       subTitle: 'Lower Body Endurance & Muscular Endurance',
       expectedMinute: 90,
-      minExpectedCalories: 555,
-      maxExpectedCalories: 555,
-      dayWorkouts: [
+      minExpectedCalorie: 555,
+      maxExpectedCalorie: 555,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -10071,7 +10071,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10111,7 +10111,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10145,7 +10145,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10179,7 +10179,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 20,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10237,16 +10237,16 @@ export const machineAdvancedC: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.advanced,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력 및 폭발력',
       subTitle: 'Upper Body Strength & Explosiveness',
       expectedMinute: 90,
-      minExpectedCalories: 690,
-      maxExpectedCalories: 690,
-      dayWorkouts: [
+      minExpectedCalorie: 690,
+      maxExpectedCalorie: 690,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -10285,7 +10285,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10325,7 +10325,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10365,7 +10365,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10399,7 +10399,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10456,9 +10456,9 @@ export const machineAdvancedC: Program = {
       title: '하체 근력 및 폭발력',
       subTitle: 'Lower Body Strength & Explosiveness',
       expectedMinute: 90,
-      minExpectedCalories: 610,
-      maxExpectedCalories: 610,
-      dayWorkouts: [
+      minExpectedCalorie: 610,
+      maxExpectedCalorie: 610,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -10497,7 +10497,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10537,7 +10537,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10577,7 +10577,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10611,7 +10611,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10668,9 +10668,9 @@ export const machineAdvancedC: Program = {
       title: '코어 강화 및 안정성',
       subTitle: 'Core Strength & Stability',
       expectedMinute: 60,
-      minExpectedCalories: 455,
-      maxExpectedCalories: 455,
-      dayWorkouts: [
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -10709,7 +10709,7 @@ export const machineAdvancedC: Program = {
               unit: 'seconds',
               set: 4,
               unitValue: 60,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10743,7 +10743,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10777,7 +10777,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10811,7 +10811,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10868,9 +10868,9 @@ export const machineAdvancedC: Program = {
       title: '고강도 전신 서킷',
       subTitle: 'High-Intensity Full Body Circuit',
       expectedMinute: 60,
-      minExpectedCalories: 835,
-      maxExpectedCalories: 835,
-      dayWorkouts: [
+      minExpectedCalorie: 835,
+      maxExpectedCalorie: 835,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -10909,7 +10909,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -10963,7 +10963,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -11020,9 +11020,9 @@ export const machineAdvancedC: Program = {
       title: '상체 지구력 및 근지구력',
       subTitle: 'Upper Body Endurance & Muscular Endurance',
       expectedMinute: 60,
-      minExpectedCalories: 495,
-      maxExpectedCalories: 495,
-      dayWorkouts: [
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -11062,7 +11062,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -11102,7 +11102,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -11136,7 +11136,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -11170,7 +11170,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -11227,9 +11227,9 @@ export const machineAdvancedC: Program = {
       title: '하체 지구력 및 근지구력',
       subTitle: 'Lower Body Endurance & Muscular Endurance',
       expectedMinute: 60,
-      minExpectedCalories: 565,
-      maxExpectedCalories: 565,
-      dayWorkouts: [
+      minExpectedCalorie: 565,
+      maxExpectedCalorie: 565,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -11268,7 +11268,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -11308,7 +11308,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -11342,7 +11342,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -11376,7 +11376,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 20,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,

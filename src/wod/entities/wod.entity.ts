@@ -7,5 +7,5 @@ export class Wod {
   unit: string;
   unitValue: number;
   set?: number;
-  wodSet?: Array<WodSet>;
+  wodSets?: Array<WodSet>;
 }
