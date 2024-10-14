@@ -1,4 +1,4 @@
-import { Workout } from './Workout.entity';
+import { Workout } from './workout.entity';
 
 export class DayWorkout {
   id: string;
