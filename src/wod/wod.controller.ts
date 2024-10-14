@@ -6,7 +6,7 @@ export class WodController {
   constructor(private readonly wodService: WodService) {}
 
   @Get()
-  findProgram(@Query('method') method, @Query('level') level) {
+  findProgram(@Query('methodType') method, @Query('level') level) {
     console.log(method, level);
 
     if (method == null || method == '' || level == null || level == '') {

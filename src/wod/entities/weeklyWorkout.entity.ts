@@ -1,12 +1,12 @@
-import { DayWorkout } from './dayWorkout.entity';
+import { Workout } from './Workout.entity';
 
-export class WeeklyWorkout {
+export class DayWorkout {
   id: string;
   type: string;
   title: string;
   subTitle: string;
   expectedMinute: number;
-  minExpectedCalories: number;
-  maxExpectedCalories: number;
-  dayWorkouts: Array<DayWorkout>;
+  minExpectedCalorie: number;
+  maxExpectedCalorie: number;
+  workouts: Array<Workout>;
 }

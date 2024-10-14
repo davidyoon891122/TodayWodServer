@@ -4,20 +4,21 @@ import { LevelType } from '../type/level.type';
 import { MethodType } from '../type/method.type';
 import { WodType } from '../type/wod.type';
 
+// ----- beginner -----
 export const machineBeginnerA: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.beginner,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 265,
-      maxExpectedCalories: 265,
-      dayWorkouts: [
+      minExpectedCalorie: 265,
+      maxExpectedCalorie: 265,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -49,7 +50,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -77,7 +78,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -105,7 +106,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -156,9 +157,9 @@ export const machineBeginnerA: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 320,
-      maxExpectedCalories: 320,
-      dayWorkouts: [
+      minExpectedCalorie: 320,
+      maxExpectedCalorie: 320,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -190,7 +191,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -218,7 +219,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -246,7 +247,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -297,9 +298,9 @@ export const machineBeginnerA: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 30,
-      minExpectedCalories: 295,
-      maxExpectedCalories: 295,
-      dayWorkouts: [
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -331,7 +332,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -359,7 +360,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -387,7 +388,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -438,9 +439,9 @@ export const machineBeginnerA: Program = {
       title: '전신 운동',
       subTitle: 'Full Body Conditioning',
       expectedMinute: 30,
-      minExpectedCalories: 300,
-      maxExpectedCalories: 300,
-      dayWorkouts: [
+      minExpectedCalorie: 300,
+      maxExpectedCalorie: 300,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -516,9 +517,9 @@ export const machineBeginnerA: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 305,
-      maxExpectedCalories: 305,
-      dayWorkouts: [
+      minExpectedCalorie: 305,
+      maxExpectedCalorie: 305,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -557,7 +558,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -585,7 +586,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -636,9 +637,9 @@ export const machineBeginnerA: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 335,
-      maxExpectedCalories: 335,
-      dayWorkouts: [
+      minExpectedCalorie: 335,
+      maxExpectedCalorie: 335,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -684,7 +685,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -732,20 +733,1453 @@ export const machineBeginnerA: Program = {
   ],
 };
 
-export const machineElementaryA: Program = {
+export const machineBeginnerB: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
-  level: LevelType.elementary,
-  weeklyWorkouts: [
+  level: LevelType.beginner,
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 295,
-      maxExpectedCalories: 295,
-      dayWorkouts: [
+      minExpectedCalorie: 205,
+      maxExpectedCalorie: 205,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '밴드 암 크로스',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '어깨 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '시티드 로우 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '펙 덱 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '바이셉스 컬 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '팔 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '등 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '하체 근력',
+      subTitle: 'Lower Body Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 195,
+      maxExpectedCalorie: 195,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '사이드 레그 스윙',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '워킹 런지',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '해크 스쿼트 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '힙 어브덕션 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 익스텐션 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '둔근 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '햄스트링 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '코어 강화',
+      subTitle: 'Core Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 205,
+      maxExpectedCalorie: 205,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '사이드 밴드 스트레칭',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '브리지',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '복부 크런치 머신',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '사이드 플랭크',
+              subTitle: 'Core main workout',
+              unit: 'minutes',
+              set: 2,
+              unitValue: 1,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '리버스 크런치',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '허리 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '복부 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '전신 운동',
+      subTitle: 'Full Body Conditioning',
+      expectedMinute: 35,
+      minExpectedCalorie: 345,
+      maxExpectedCalorie: 345,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '전신 스트레칭',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '로잉 머신',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '엘립티컬 머신',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '트레드밀 걷기',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '전신 스트레칭',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '심호흡 운동',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 지구력',
+      subTitle: 'Upper Body Endurance',
+      expectedMinute: 30,
+      minExpectedCalorie: 310,
+      maxExpectedCalorie: 310,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '줄넘기 또는 가벼운 카디오',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '어깨 회전 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '암 바이크',
+              subTitle: 'Upper body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '어시스티드 딥 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '트라이셉스 익스텐션 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '팔 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '목 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'end',
+      title: '하체 지구력',
+      subTitle: 'Lower Body Endurance',
+      expectedMinute: 30,
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '마운틴 클라이머',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 오프너 스트레칭',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '엘립티컬 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '스텝퍼 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 2,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '종아리 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '하체 전체 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export const machineBeginnerC: Program = {
+  id: randomUUID(),
+  methodType: MethodType.machine,
+  level: LevelType.beginner,
+  dayWorkouts: [
+    {
+      id: randomUUID(),
+      type: 'start',
+      title: '상체 근력',
+      subTitle: 'Upper Body Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 215,
+      maxExpectedCalorie: 215,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '어깨 회전 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '암 서클',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '체스트 프레스 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '어시스티드 풀업 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '숄더 프레스 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '가슴 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '등 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '하체 근력',
+      subTitle: 'Lower Body Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 225,
+      maxExpectedCalorie: 225,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '레그 스윙',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '스쿼트 동작 연습',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '카프 레이즈 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '힙 어덕션 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '종아리 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '둔근 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '코어 강화',
+      subTitle: 'Core Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 175,
+      maxExpectedCalorie: 175,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '트렁크 로테이션',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '브리지',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '복부 크런치 머신',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '백 익스텐션 머신',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '플랭크',
+              subTitle: 'Core main workout',
+              unit: 'minutes',
+              set: 2,
+              unitValue: 1,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '허리 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '복부 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '전신 운동',
+      subTitle: 'Full Body Conditioning',
+      expectedMinute: 35,
+      minExpectedCalorie: 365,
+      maxExpectedCalorie: 365,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '다이나믹 스트레칭',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '사이클 머신',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '로잉 머신',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '트레드밀 인터벌 워킹',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '전신 스트레칭',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '심호흡 운동',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 지구력',
+      subTitle: 'Upper Body Endurance',
+      expectedMinute: 27,
+      minExpectedCalorie: 305,
+      maxExpectedCalorie: 305,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '줄넘기',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '어깨 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '암 바이크',
+              subTitle: 'Upper body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '랫 풀다운 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '체스트 프레스 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '팔 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '목 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'end',
+      title: '하체 지구력',
+      subTitle: 'Lower Body Endurance',
+      expectedMinute: 34,
+      minExpectedCalorie: 280,
+      maxExpectedCalorie: 280,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '워킹 런지',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '하체 스트레칭',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '엘립티컬 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '스텝퍼 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '카프 레이즈 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 2,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '하체 전체 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '발목 회전 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+// ----- Elementary -----
+export const machineElementaryA: Program = {
+  id: randomUUID(),
+  methodType: MethodType.machine,
+  level: LevelType.elementary,
+  dayWorkouts: [
+    {
+      id: randomUUID(),
+      type: 'start',
+      title: '상체 근력',
+      subTitle: 'Upper Body Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -784,7 +2218,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -812,7 +2246,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -840,7 +2274,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -868,7 +2302,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -919,9 +2353,9 @@ export const machineElementaryA: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 295,
-      maxExpectedCalories: 295,
-      dayWorkouts: [
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -960,7 +2394,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -988,7 +2422,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1016,7 +2450,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1044,7 +2478,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1095,9 +2529,9 @@ export const machineElementaryA: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 30,
-      minExpectedCalories: 275,
-      maxExpectedCalories: 275,
-      dayWorkouts: [
+      minExpectedCalorie: 275,
+      maxExpectedCalorie: 275,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1136,7 +2570,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1164,7 +2598,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1192,7 +2626,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1220,7 +2654,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1271,9 +2705,9 @@ export const machineElementaryA: Program = {
       title: '전신 운동',
       subTitle: 'Full Body Conditioning',
       expectedMinute: 30,
-      minExpectedCalories: 495,
-      maxExpectedCalories: 495,
-      dayWorkouts: [
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1363,9 +2797,9 @@ export const machineElementaryA: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 310,
-      maxExpectedCalories: 310,
-      dayWorkouts: [
+      minExpectedCalorie: 310,
+      maxExpectedCalorie: 310,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1411,7 +2845,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1439,7 +2873,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1467,7 +2901,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1518,9 +2952,9 @@ export const machineElementaryA: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 325,
-      maxExpectedCalories: 325,
-      dayWorkouts: [
+      minExpectedCalorie: 325,
+      maxExpectedCalorie: 325,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1573,7 +3007,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1601,7 +3035,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 20,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1649,20 +3083,1416 @@ export const machineElementaryA: Program = {
   ],
 };
 
-export const machineIntermediateA: Program = {
+export const machineElementaryB: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
-  level: LevelType.intermediate,
-  weeklyWorkouts: [
+  level: LevelType.elementary,
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 525,
-      maxExpectedCalories: 525,
-      dayWorkouts: [
+      minExpectedCalorie: 428,
+      maxExpectedCalorie: 428,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '어깨 회전 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '밴드 풀어파트',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '푸시업',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '인클라인 체스트 프레스 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '시티드 케이블 로우 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '숄더 프레스 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '펙 덱 플라이 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '가슴 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '등 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '하체 근력',
+      subTitle: 'Lower Body Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 382,
+      maxExpectedCalorie: 382,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '레그 스윙',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '워킹 런지',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '하프 스쿼트',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '스미스 머신 스쿼트',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '해크 스쿼트 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '힙 어브덕션 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '햄스트링 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '둔근 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '코어 강화',
+      subTitle: 'Core Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 321,
+      maxExpectedCalorie: 321,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '트렁크 로테이션',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 브리지',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '사이드 밴드 스트레칭',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '복부 크런치 머신',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '사이드 플랭크',
+              subTitle: 'Core main workout',
+              unit: 'minutes',
+              set: 2,
+              unitValue: 1,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 사이드 밴드',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '로마 체어 레그 레이즈',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '허리 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '복부 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '전신 운동',
+      subTitle: 'Full Body Conditioning',
+      expectedMinute: 45,
+      minExpectedCalorie: 515,
+      maxExpectedCalorie: 515,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '다이나믹 스트레칭',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '로잉 머신',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '크로스 트레이너',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '트레드밀 인터벌 러닝',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '스키 머신',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '전신 스트레칭',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '심호흡 운동',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 지구력',
+      subTitle: 'Upper Body Endurance',
+      expectedMinute: 45,
+      minExpectedCalorie: 480,
+      maxExpectedCalorie: 480,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '에어 로우',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '손목 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '암 크로스',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '암 바이크',
+              subTitle: 'Upper body main workout',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '어시스티드 딥 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '바이셉스 컬 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '트라이셉스 익스텐션 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '팔 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '목 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'end',
+      title: '하체 지구력',
+      subTitle: 'Lower Body Endurance',
+      expectedMinute: 45,
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '마운틴 클라이머',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 오프너 스트레칭',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '하프 스쿼트 점프',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '엘립티컬 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '스텝퍼 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '레그 익스텐션 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '레그 컬 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '하체 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '발목 회전 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export const machineElementaryC: Program = {
+  id: randomUUID(),
+  methodType: MethodType.machine,
+  level: LevelType.elementary,
+  dayWorkouts: [
+    {
+      id: randomUUID(),
+      type: 'start',
+      title: '상체 근력',
+      subTitle: 'Upper Body Strength',
+      expectedMinute: 45,
+      minExpectedCalorie: 355,
+      maxExpectedCalorie: 355,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '어깨 회전 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '암 서클',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '밴드 풀어파트',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '체스트 프레스 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+            },
+            {
+              id: randomUUID(),
+              title: '랫 풀다운 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+            },
+            {
+              id: randomUUID(),
+              title: '펙 덱 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+            },
+            {
+              id: randomUUID(),
+              title: '시티드 케이블 로우 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '가슴 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '등 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '하체 근력',
+      subTitle: 'Lower Body Strength',
+      expectedMinute: 45,
+      minExpectedCalorie: 345,
+      maxExpectedCalorie: 345,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '레그 스윙',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '워킹 런지',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 써스트',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+            },
+            {
+              id: randomUUID(),
+              title: '해크 스쿼트 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 어브덕션 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '카프 레이즈 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '햄스트링 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '둔근 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '코어 강화',
+      subTitle: 'Core Strength',
+      expectedMinute: 45,
+      minExpectedCalorie: 295,
+      maxExpectedCalorie: 295,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '트렁크 로테이션',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '브리지',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '사이드 밴드 스트레칭',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '복부 크런치 머신',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '로마 체어 백 익스텐션',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 사이드 밴드',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+            },
+            {
+              id: randomUUID(),
+              title: '플랭크',
+              subTitle: 'Core main workout',
+              unit: 'minutes',
+              set: 2,
+              unitValue: 1,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '허리 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '복부 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '전신 운동',
+      subTitle: 'Full Body Conditioning',
+      expectedMinute: 45,
+      minExpectedCalorie: 440,
+      maxExpectedCalorie: 440,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '다이나믹 스트레칭',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '사이클 머신',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              set: 1,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '로잉 머신',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              set: 1,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '트레드밀 인터벌 러닝',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              set: 1,
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '스텝밀 머신',
+              subTitle: 'Full body main workout',
+              unit: 'minutes',
+              set: 1,
+              unitValue: 10,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '전신 스트레칭',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '심호흡 운동',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 지구력',
+      subTitle: 'Upper Body Endurance',
+      expectedMinute: 45,
+      minExpectedCalorie: 390,
+      maxExpectedCalorie: 390,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '줄넘기',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '어깨 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '암 크로스',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '암 바이크',
+              subTitle: 'Upper body main workout',
+              unit: 'minutes',
+              set: 1,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '어시스티드 딥 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '바이셉스 컬 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '트라이셉스 익스텐션 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '팔 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '목 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'end',
+      title: '하체 지구력',
+      subTitle: 'Lower Body Endurance',
+      expectedMinute: 45,
+      minExpectedCalorie: 395,
+      maxExpectedCalorie: 395,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '워킹 런지',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '하체 스트레칭',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '스쿼트 점프',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '엘립티컬 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'minutes',
+              set: 1,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '스텝퍼 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'minutes',
+              set: 1,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '카프 레이즈 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 20,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '하체 전체 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '발목 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+// ----- Intermediate -----
+export const machineIntermediateA: Program = {
+  id: randomUUID(),
+  methodType: MethodType.machine,
+  level: LevelType.intermediate,
+  dayWorkouts: [
+    {
+      id: randomUUID(),
+      type: 'start',
+      title: '상체 근력',
+      subTitle: 'Upper Body Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 525,
+      maxExpectedCalorie: 525,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1701,7 +4531,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1735,7 +4565,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1769,7 +4599,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1797,7 +4627,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1848,9 +4678,9 @@ export const machineIntermediateA: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 525,
-      maxExpectedCalories: 525,
-      dayWorkouts: [
+      minExpectedCalorie: 525,
+      maxExpectedCalorie: 525,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -1889,7 +4719,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1923,7 +4753,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1957,7 +4787,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -1985,7 +4815,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2036,9 +4866,9 @@ export const machineIntermediateA: Program = {
       title: '코어 강화 및 복합 운동',
       subTitle: 'Core Strength & Compound Movements',
       expectedMinute: 30,
-      minExpectedCalories: 455,
-      maxExpectedCalories: 455,
-      dayWorkouts: [
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2077,7 +4907,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2111,7 +4941,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2139,7 +4969,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2167,7 +4997,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2218,9 +5048,9 @@ export const machineIntermediateA: Program = {
       title: '전신 고강도 운동',
       subTitle: 'Full Body High-Intensity Training',
       expectedMinute: 30,
-      minExpectedCalories: 550,
-      maxExpectedCalories: 550,
-      dayWorkouts: [
+      minExpectedCalorie: 550,
+      maxExpectedCalorie: 550,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2259,7 +5089,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2307,7 +5137,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2358,9 +5188,9 @@ export const machineIntermediateA: Program = {
       title: '상체 지구력 및 근지구력',
       subTitle: 'Upper Body Endurance & Muscular Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 435,
-      maxExpectedCalories: 435,
-      dayWorkouts: [
+      minExpectedCalorie: 435,
+      maxExpectedCalorie: 435,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2399,7 +5229,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2433,7 +5263,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2461,7 +5291,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2489,7 +5319,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2540,9 +5370,9 @@ export const machineIntermediateA: Program = {
       title: '하체 지구력 및 근지구력',
       subTitle: 'Lower Body Endurance & Muscular Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 495,
-      maxExpectedCalories: 495,
-      dayWorkouts: [
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2581,7 +5411,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2615,7 +5445,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2643,7 +5473,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2671,7 +5501,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2719,20 +5549,2057 @@ export const machineIntermediateA: Program = {
   ],
 };
 
+export const machineIntermediateB: Program = {
+  id: randomUUID(),
+  methodType: MethodType.machine,
+  level: LevelType.intermediate,
+  dayWorkouts: [
+    {
+      id: randomUUID(),
+      type: 'start',
+      title: '상체 근력',
+      subTitle: 'Upper Body Strength',
+      expectedMinute: 40,
+      minExpectedCalorie: 405,
+      maxExpectedCalorie: 405,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '어깨 회전 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '밴드 풀어파트',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '푸시업',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '인클라인 벤치 프레스',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 로우',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+            },
+            {
+              id: randomUUID(),
+              title: '펙 덱 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '랫 풀다운 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '어깨 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '가슴 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '하체 근력',
+      subTitle: 'Lower Body Strength',
+      expectedMinute: 45,
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '워킹 런지',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 써스트',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '레그 스윙',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '데드리프트',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '해크 스쿼트 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '힙 어브덕션 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '햄스트링 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '둔근 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '코어 집중 및 복합 운동',
+      subTitle: 'Core Focus & Compound Movements',
+      expectedMinute: 45,
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '트렁크 로테이션',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '브리지',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '사이드 밴드 스트레칭',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '핵 스쿼트',
+              subTitle: 'Compound movement',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '복부 크런치 머신',
+              subTitle: 'Core workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 사이드 밴드',
+              subTitle: 'Core workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '로마 체어 레그 레이즈',
+              subTitle: 'Core workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '허리 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '복부 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '고강도 전신 운동',
+      subTitle: 'High-Intensity Training',
+      expectedMinute: 45,
+      minExpectedCalorie: 530,
+      maxExpectedCalorie: 530,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Full-body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '다이나믹 스트레칭',
+              subTitle: 'Full-body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Full-body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '스내치',
+              subTitle: 'Full-body main workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 6,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '사이클 머신',
+              subTitle: 'Full-body cardio workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '스텝밀 머신',
+              subTitle: 'Full-body cardio workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '케틀벨 스윙',
+              subTitle: 'Full-body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '전신 스트레칭',
+              subTitle: 'Full-body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '심호흡 운동',
+              subTitle: 'Full-body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 지구력 및 근지구력',
+      subTitle: 'Upper Body Endurance & Muscular Endurance',
+      expectedMinute: 45,
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '에어 로우',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '손목 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '암 크로스',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '케이블 머신 서킷 트레이닝',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '숄더 프레스 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '바이셉스 컬 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '트라이셉스 익스텐션 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '팔 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '목 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'end',
+      title: '하체 지구력 및 근지구력',
+      subTitle: 'Lower Body Endurance & Muscular Endurance',
+      expectedMinute: 45,
+      minExpectedCalorie: 485,
+      maxExpectedCalorie: 485,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '마운틴 클라이머',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 오프너 스트레칭',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '스쿼트 점프',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '케틀벨 스쿼트',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 익스텐션 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 컬 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '카프 레이즈 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '하체 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '발목 회전 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export const machineIntermediateC: Program = {
+  id: randomUUID(),
+  methodType: MethodType.machine,
+  level: LevelType.intermediate,
+  dayWorkouts: [
+    {
+      id: randomUUID(),
+      type: 'start',
+      title: '상체 근력',
+      subTitle: 'Upper Body Strength',
+      expectedMinute: 45,
+      minExpectedCalorie: 445,
+      maxExpectedCalorie: 445,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '어깨 회전 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '밴드 풀어파트',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '푸시업',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '인클라인 벤치 프레스',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 로우',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '펙 덱 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '랫 풀다운 머신',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '가슴 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '등 상부 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '하체 근력',
+      subTitle: 'Lower Body Strength',
+      expectedMinute: 45,
+      minExpectedCalorie: 425,
+      maxExpectedCalorie: 425,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '레그 스윙',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '워킹 런지',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 브리지',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '데드리프트',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '해크 스쿼트 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '힙 어브덕션 머신',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '햄스트링 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '둔근 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '코어 집중 및 복합 운동',
+      subTitle: 'Core Focus & Compound Movements',
+      expectedMinute: 45,
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '트렁크 로테이션',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '브리지',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '사이드 밴드 스트레칭',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '핵 스쿼트',
+              subTitle: 'Compound movement',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '복부 크런치 머신',
+              subTitle: 'Core workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 사이드 밴드',
+              subTitle: 'Core workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '로마 체어 레그 레이즈',
+              subTitle: 'Core workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '허리 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '복부 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '고강도 전신 운동',
+      subTitle: 'High-Intensity Training',
+      expectedMinute: 45,
+      minExpectedCalorie: 540,
+      maxExpectedCalorie: 540,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Full-body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '다이나믹 스트레칭',
+              subTitle: 'Full-body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Full-body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '스내치',
+              subTitle: 'High-intensity workout',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 6,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '로잉 머신',
+              subTitle: 'High-intensity workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '스텝밀 머신',
+              subTitle: 'High-intensity workout',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '케틀벨 스윙',
+              subTitle: 'High-intensity workout',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '전신 스트레칭',
+              subTitle: 'Full-body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '심호흡 운동',
+              subTitle: 'Cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 지구력 및 근지구력',
+      subTitle: 'Upper Body Endurance & Muscular Endurance',
+      expectedMinute: 45,
+      minExpectedCalorie: 435,
+      maxExpectedCalorie: 435,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '에어 로우',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '손목 스트레칭',
+              subTitle: 'Warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '암 크로스',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '케이블 머신 서킷 트레이닝',
+              subTitle: 'Upper body endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '숄더 프레스 머신',
+              subTitle: 'Upper body endurance',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '바이셉스 컬 머신',
+              subTitle: 'Upper body endurance',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '트라이셉스 익스텐션 머신',
+              subTitle: 'Upper body endurance',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '팔 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '목 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'end',
+      title: '하체 지구력 및 근지구력',
+      subTitle: 'Lower Body Endurance & Muscular Endurance',
+      expectedMinute: 45,
+      minExpectedCalorie: 465,
+      maxExpectedCalorie: 465,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '마운틴 클라이머',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 오프너 스트레칭',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+            {
+              id: randomUUID(),
+              title: '스쿼트 점프',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '케틀벨 스쿼트',
+              subTitle: 'Lower body endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 익스텐션 머신',
+              subTitle: 'Lower body endurance',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 컬 머신',
+              subTitle: 'Lower body endurance',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '카프 레이즈 머신',
+              subTitle: 'Lower body endurance',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '하체 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '발목 회전 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+// ----- Advanced -----
 export const machineAdvancedA: Program = {
   id: randomUUID(),
   methodType: MethodType.machine,
   level: LevelType.advanced,
-  weeklyWorkouts: [
+  dayWorkouts: [
     {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 705,
-      maxExpectedCalories: 705,
-      dayWorkouts: [
+      minExpectedCalorie: 705,
+      maxExpectedCalorie: 705,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -2758,7 +7625,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2810,7 +7677,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2856,7 +7723,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2902,7 +7769,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -2948,7 +7815,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3017,9 +7884,9 @@ export const machineAdvancedA: Program = {
       title: '하체 근력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
-      minExpectedCalories: 682,
-      maxExpectedCalories: 682,
-      dayWorkouts: [
+      minExpectedCalorie: 682,
+      maxExpectedCalorie: 682,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3038,7 +7905,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3084,7 +7951,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3136,7 +8003,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3182,7 +8049,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3228,7 +8095,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3274,7 +8141,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3343,9 +8210,9 @@ export const machineAdvancedA: Program = {
       title: '코어 강화',
       subTitle: 'Core Strength',
       expectedMinute: 30,
-      minExpectedCalories: 450,
-      maxExpectedCalories: 450,
-      dayWorkouts: [
+      minExpectedCalorie: 450,
+      maxExpectedCalorie: 450,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3371,7 +8238,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3430,7 +8297,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3476,7 +8343,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3522,7 +8389,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3591,9 +8458,9 @@ export const machineAdvancedA: Program = {
       title: '전신 고강도 운동',
       subTitle: 'Full Body High-Intensity Training',
       expectedMinute: 30,
-      minExpectedCalories: 705,
-      maxExpectedCalories: 705,
-      dayWorkouts: [
+      minExpectedCalorie: 705,
+      maxExpectedCalorie: 705,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3632,7 +8499,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3692,7 +8559,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3749,9 +8616,9 @@ export const machineAdvancedA: Program = {
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 505,
-      maxExpectedCalories: 505,
-      dayWorkouts: [
+      minExpectedCalorie: 505,
+      maxExpectedCalorie: 505,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -3790,7 +8657,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3836,7 +8703,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3870,7 +8737,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3904,7 +8771,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -3961,9 +8828,9 @@ export const machineAdvancedA: Program = {
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 30,
-      minExpectedCalories: 505,
-      maxExpectedCalories: 505,
-      dayWorkouts: [
+      minExpectedCalorie: 505,
+      maxExpectedCalorie: 505,
+      workouts: [
         {
           id: randomUUID(),
           type: WodType.warmUp,
@@ -4002,7 +8869,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 5,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4048,7 +8915,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4082,7 +8949,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4116,7 +8983,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
-              wodSet: [
+              wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
@@ -4160,6 +9027,2399 @@ export const machineAdvancedA: Program = {
               id: randomUUID(),
               title: '발목 회전 스트레칭',
               subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export const machineAdvancedB: Program = {
+  id: randomUUID(),
+  methodType: MethodType.machine,
+  level: LevelType.advanced,
+  dayWorkouts: [
+    {
+      id: randomUUID(),
+      type: 'start',
+      title: '상체 근력 및 파워',
+      subTitle: 'Upper Body Strength & Power',
+      expectedMinute: 60,
+      minExpectedCalorie: 685,
+      maxExpectedCalorie: 685,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '에어 로우',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '어깨 스트레칭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '푸시업',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '인클라인 벤치 프레스',
+              subTitle: 'Upper body strength and power',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 로우',
+              subTitle: 'Upper body strength and power',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '펙 덱 머신',
+              subTitle: 'Upper body strength and power',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '랫 풀다운 머신',
+              subTitle: 'Upper body strength and power',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '가슴 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '등 상부 스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '하체 근력 및 파워',
+      subTitle: 'Lower Body Strength & Power',
+      expectedMinute: 60,
+      minExpectedCalorie: 558,
+      maxExpectedCalorie: 558,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '워킹 런지',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 써스트',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '레그 스윙',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '데드리프트',
+              subTitle: 'Lower body strength and power',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Lower body strength and power',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '해크 스쿼트 머신',
+              subTitle: 'Lower body strength and power',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '힙 어브덕션 머신',
+              subTitle: 'Lower body strength and power',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '햄스트링 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '둔근 스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '코어 집중 및 복합 운동',
+      subTitle: 'Core Focus & Compound Movements',
+      expectedMinute: 60,
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '트렁크 로테이션',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '브리지',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '사이드 밴드 스트레칭',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '핵 리프트',
+              subTitle: 'Core strength and compound movement',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '복부 크런치 머신',
+              subTitle: 'Core strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 사이드 밴드',
+              subTitle: 'Core and obliques',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '로마 체어 레그 레이즈',
+              subTitle: 'Core and lower abs',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '허리 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '복부 스트레칭',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '고강도 전신 운동',
+      subTitle: 'High-Intensity Full Body Workout',
+      expectedMinute: 75,
+      minExpectedCalorie: 815,
+      maxExpectedCalorie: 815,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '로잉 머신',
+              subTitle: 'Full body cardio',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '다이나믹 스트레칭',
+              subTitle: 'Dynamic warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Full body cardio',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '스내치',
+              subTitle: 'Full body strength',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '엘립티컬 머신',
+              subTitle: 'Full body cardio',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '스텝밀 머신',
+              subTitle: 'Lower body endurance',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '케틀벨 스윙',
+              subTitle: 'Lower body strength and cardio',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '전신 스트레칭',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '심호흡 운동',
+              subTitle: 'Breathing exercises',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 지구력 및 근지구력',
+      subTitle: 'Upper Body Endurance & Muscular Endurance',
+      expectedMinute: 75,
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '암 바이크',
+              subTitle: 'Upper body warm-up cardio',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '손목 스트레칭',
+              subTitle: 'Wrist stretches',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '암 크로스',
+              subTitle: 'Shoulder and chest warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '케이블 머신 서킷 트레이닝',
+              subTitle: 'Upper body strength circuit',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '숄더 프레스 머신',
+              subTitle: 'Shoulder strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '바이셉스 컬 머신',
+              subTitle: 'Bicep endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '트라이셉스 익스텐션 머신',
+              subTitle: 'Tricep endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '팔 스트레칭',
+              subTitle: 'Arm stretches',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '목 스트레칭',
+              subTitle: 'Neck stretches',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'end',
+      title: '하체 지구력 및 근지구력',
+      subTitle: 'Lower Body Endurance & Muscular Endurance',
+      expectedMinute: 90,
+      minExpectedCalorie: 555,
+      maxExpectedCalorie: 555,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '사이클 머신',
+              subTitle: 'Cardio warm-up',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 오프너 스트레칭',
+              subTitle: 'Hip mobility warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '스쿼트 점프',
+              subTitle: 'Dynamic warm-up for lower body',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '케틀벨 스쿼트',
+              subTitle: 'Lower body strength',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Leg press for lower body strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 익스텐션 머신',
+              subTitle: 'Quadriceps endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '카프 레이즈 머신',
+              subTitle: 'Calf endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 20,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 20,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 20,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 20,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 20,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '하체 스트레칭',
+              subTitle: 'Lower body stretches',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '발목 회전 스트레칭',
+              subTitle: 'Ankle mobility stretch',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export const machineAdvancedC: Program = {
+  id: randomUUID(),
+  methodType: MethodType.machine,
+  level: LevelType.advanced,
+  dayWorkouts: [
+    {
+      id: randomUUID(),
+      type: 'start',
+      title: '상체 근력 및 폭발력',
+      subTitle: 'Upper Body Strength & Explosiveness',
+      expectedMinute: 90,
+      minExpectedCalorie: 690,
+      maxExpectedCalorie: 690,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '줄넘기',
+              subTitle: 'Jump rope for warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '어깨 회전 스트레칭',
+              subTitle: 'Shoulder rotation warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '푸시업',
+              subTitle: 'Push-ups to engage upper body',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '푸시 프레스',
+              subTitle: 'Push press for explosiveness',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '펜들레이 로우',
+              subTitle: 'Pendlay row for upper body power',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '체스트 프레스 머신',
+              subTitle: 'Chest press machine for strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '시티드 로우 머신',
+              subTitle: 'Seated row for upper back strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '가슴 스트레칭',
+              subTitle: 'Chest stretch for cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '등 상부 스트레칭',
+              subTitle: 'Upper back stretch',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '하체 근력 및 폭발력',
+      subTitle: 'Lower Body Strength & Explosiveness',
+      expectedMinute: 90,
+      minExpectedCalorie: 610,
+      maxExpectedCalorie: 610,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '워킹 런지',
+              subTitle: 'Walking lunges for warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 써스트',
+              subTitle: 'Hip thrusts for glute activation',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '레그 스윙',
+              subTitle: 'Leg swings to loosen hips',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '스쿼트 점프',
+              subTitle: 'Jump squats for explosiveness',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '런지',
+              subTitle: 'Lunges for leg power',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '해크 스쿼트 머신',
+              subTitle: 'Hack squat for leg strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '힙 어브덕션 머신',
+              subTitle: 'Hip abduction for glute strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '햄스트링 스트레칭',
+              subTitle: 'Hamstring stretch for cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '둔근 스트레칭',
+              subTitle: 'Glute stretch for cooldown',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '코어 강화 및 안정성',
+      subTitle: 'Core Strength & Stability',
+      expectedMinute: 60,
+      minExpectedCalorie: 455,
+      maxExpectedCalorie: 455,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '트렁크 로테이션',
+              subTitle: 'Trunk rotations for core activation',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '브리지',
+              subTitle: 'Bridge for glute and core activation',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '사이드 밴드 스트레칭',
+              subTitle: 'Side band stretching for flexibility',
+              unit: 'minutes',
+              unitValue: 2,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '플랭크',
+              subTitle: 'Plank for core stability',
+              unit: 'seconds',
+              set: 4,
+              unitValue: 60,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 60,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 60,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 60,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 60,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '복부 크런치 머신',
+              subTitle: 'Crunch machine for core strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '백 익스텐션 머신',
+              subTitle: 'Back extension machine for lower back strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 사이드 밴드',
+              subTitle: 'Dumbbell side bends for obliques',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '허리 스트레칭',
+              subTitle: 'Lower back stretch for recovery',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '복부 스트레칭',
+              subTitle: 'Core stretching for flexibility',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '고강도 전신 서킷',
+      subTitle: 'High-Intensity Full Body Circuit',
+      expectedMinute: 60,
+      minExpectedCalorie: 835,
+      maxExpectedCalorie: 835,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '로잉 머신',
+              subTitle: 'Rowing machine for full-body activation',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '다이나믹 스트레칭',
+              subTitle: 'Dynamic stretching for flexibility and mobility',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Burpees to get the heart rate up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '클린',
+              subTitle: 'Cleans for explosive power',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 5,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 5,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '로잉 머신',
+              subTitle: 'Rowing machine for endurance and conditioning',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '스텝밀 머신',
+              subTitle: 'StepMill for leg endurance and conditioning',
+              unit: 'minutes',
+              unitValue: 15,
+            },
+            {
+              id: randomUUID(),
+              title: '케틀벨 스윙',
+              subTitle: 'Kettlebell swings for total body power',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '전신 스트레칭',
+              subTitle: 'Full-body stretch to cool down',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '심호흡 운동',
+              subTitle: 'Deep breathing for recovery',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 지구력 및 근지구력',
+      subTitle: 'Upper Body Endurance & Muscular Endurance',
+      expectedMinute: 60,
+      minExpectedCalorie: 495,
+      maxExpectedCalorie: 495,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '암 바이크',
+              subTitle: 'Arm bike for upper body warm-up',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '손목 스트레칭',
+              subTitle: 'Wrist stretches for mobility',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '암 크로스',
+              subTitle: 'Arm crosses to loosen up shoulder muscles',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '케이블 머신 서킷 트레이닝',
+              subTitle:
+                'Cable machine circuit training for upper body endurance',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '숄더 프레스 머신',
+              subTitle: 'Shoulder press machine for upper body endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '랫 풀다운 머신',
+              subTitle: 'Lat pulldown machine for back endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '트라이셉스 익스텐션 머신',
+              subTitle: 'Triceps extension machine for arm endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '팔 스트레칭',
+              subTitle: 'Arm stretches to cool down',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+            {
+              id: randomUUID(),
+              title: '목 스트레칭',
+              subTitle: 'Neck stretches for flexibility',
+              unit: 'minutes',
+              unitValue: 5,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'end',
+      title: '하체 지구력 및 근지구력',
+      subTitle: 'Lower Body Endurance & Muscular Endurance',
+      expectedMinute: 60,
+      minExpectedCalorie: 565,
+      maxExpectedCalorie: 565,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '사이클 머신',
+              subTitle: 'Cycling to warm up the lower body',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '힙 오프너 스트레칭',
+              subTitle: 'Hip opener stretches to increase mobility',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+            {
+              id: randomUUID(),
+              title: '스쿼트 점프',
+              subTitle: 'Jump squats to activate lower body muscles',
+              unit: 'minutes',
+              unitValue: 3,
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '박스 점프',
+              subTitle: 'Box jumps for explosive power and endurance',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 프레스 머신',
+              subTitle: 'Leg press for lower body strength',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '레그 익스텐션 머신',
+              subTitle: 'Leg extension machine to build quadriceps endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '카프 레이즈 머신',
+              subTitle: 'Calf raises to develop calf endurance',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 20,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 20,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 20,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 20,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 20,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '하체 스트레칭',
+              subTitle: 'Lower body stretches to cool down muscles',
+              unit: 'minutes',
+              unitValue: 10,
+            },
+            {
+              id: randomUUID(),
+              title: '발목 회전 스트레칭',
+              subTitle: 'Ankle rotation stretches for mobility',
               unit: 'minutes',
               unitValue: 5,
             },

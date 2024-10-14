@@ -15,9 +15,17 @@ import {
 } from './entities/mock/bodyProgram.data';
 import {
   machineAdvancedA,
+  machineAdvancedB,
+  machineAdvancedC,
   machineBeginnerA,
+  machineBeginnerB,
+  machineBeginnerC,
   machineElementaryA,
+  machineElementaryB,
+  machineElementaryC,
   machineIntermediateA,
+  machineIntermediateB,
+  machineIntermediateC,
 } from './entities/mock/machineProgram.data';
 
 @Injectable()
@@ -50,13 +58,29 @@ export class WodService {
     }
 
     if (method == 'machine' && level == 'beginner') {
-      return machineBeginnerA;
+      const randomIndex = this.getRandomIndex();
+      const dataArray = [machineBeginnerA, machineBeginnerB, machineBeginnerC];
+      return dataArray[randomIndex];
     } else if (method == 'machine' && level == 'elementary') {
-      return machineElementaryA;
+      const randomIndex = this.getRandomIndex();
+      const dataArray = [
+        machineElementaryA,
+        machineElementaryB,
+        machineElementaryC,
+      ];
+      return dataArray[randomIndex];
     } else if (method == 'machine' && level == 'intermediate') {
-      return machineIntermediateA;
+      const randomIndex = this.getRandomIndex();
+      const dataArray = [
+        machineIntermediateA,
+        machineIntermediateB,
+        machineIntermediateC,
+      ];
+      return dataArray[randomIndex];
     } else if (method == 'machine' && level == 'advanced') {
-      return machineAdvancedA;
+      const randomIndex = this.getRandomIndex();
+      const dataArray = [machineAdvancedA, machineAdvancedB, machineAdvancedC];
+      return dataArray[randomIndex];
     } else {
       throw new BadRequestException('Invalid parameter');
     }
