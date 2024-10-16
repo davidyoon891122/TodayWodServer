@@ -2774,7 +2774,7 @@ export const bodyElementaryA: Program = {
               title: '플랭크',
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -2995,7 +2995,7 @@ export const bodyElementaryA: Program = {
               title: '레그 레이즈',
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -3096,30 +3096,30 @@ export const bodyElementaryA: Program = {
               subTitle: 'Core main workout',
               unit: 'minutes',
               set: 4,
-              unitValue: 1.5,
+              unitValue: 2,
               wodSets: [
                 {
                   id: randomUUID(),
                   order: 1,
-                  unitValue: 1.5,
+                  unitValue: 2,
                   isCompleted: false,
                 },
                 {
                   id: randomUUID(),
                   order: 2,
-                  unitValue: 1.5,
+                  unitValue: 2,
                   isCompleted: false,
                 },
                 {
                   id: randomUUID(),
                   order: 3,
-                  unitValue: 1.5,
+                  unitValue: 2,
                   isCompleted: false,
                 },
                 {
                   id: randomUUID(),
                   order: 4,
-                  unitValue: 1.5,
+                  unitValue: 2,
                   isCompleted: false,
                 },
               ],
@@ -3431,7 +3431,7 @@ export const bodyElementaryA: Program = {
               title: '플랭크',
               subTitle: 'Full body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
           ],
         },
@@ -3645,7 +3645,7 @@ export const bodyElementaryA: Program = {
               title: '플랭크',
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -4095,7 +4095,7 @@ export const bodyElementaryB: Program = {
               title: '플랭크',
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -4337,7 +4337,7 @@ export const bodyElementaryB: Program = {
               title: '레그 레이즈',
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -4800,7 +4800,7 @@ export const bodyElementaryB: Program = {
               title: '플랭크',
               subTitle: 'Full body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -5242,7 +5242,7 @@ export const bodyElementaryB: Program = {
               title: '플랭크',
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -5471,7 +5471,7 @@ export const bodyElementaryC: Program = {
               title: '플랭크',
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -5713,7 +5713,7 @@ export const bodyElementaryC: Program = {
               title: '레그 레이즈',
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -6176,7 +6176,7 @@ export const bodyElementaryC: Program = {
               title: '플랭크',
               subTitle: 'Full body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
@@ -6618,7 +6618,7 @@ export const bodyElementaryC: Program = {
               title: '플랭크',
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
-              unitValue: 1.5,
+              unitValue: 2,
             },
             {
               id: randomUUID(),
