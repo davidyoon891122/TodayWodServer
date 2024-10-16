@@ -7441,7 +7441,127 @@ export const bodyIntermediateA: Program = {
         },
       ],
     },
-    // 4일 차 칼로리 정보 누락 되어 있어 패스
+    {
+      id: randomUUID(),
+      type: "default",
+      title: "하체 지구력 및 근지구력",
+      subTitle: "Lower Body Endurance & Muscular Endurance",
+      expectedMinute: 60,
+      minExpectedCalorie: 565,
+      maxExpectedCalorie: 565,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: "randomUUID()",
+              title: "사이클 머신",
+              subTitle: "Cycling to warm up the lower body",
+              unit: "minutes",
+              unitValue: 10
+            },
+            {
+              id: "randomUUID()",
+              title: "힙 오프너 스트레칭",
+              subTitle: "Hip opener stretches to increase mobility",
+              unit: "minutes",
+              unitValue: 3
+            },
+            {
+              id: "randomUUID()",
+              title: "스쿼트 점프",
+              subTitle: "Jump squats to activate lower body muscles",
+              unit: "minutes",
+              unitValue: 3
+            }
+          ]
+        },
+        {
+          id: "randomUUID()",
+          type: WodType.main,
+          wods: [
+            {
+              id: "randomUUID()",
+              title: "박스 점프",
+              subTitle: "Box jumps for explosive power and endurance",
+              unit: "repetitions",
+              set: 5,
+              unitValue: 10,
+              wodSets: [
+                { id: randomUUID(), order: 1, unitValue: 10, isCompleted: false },
+                { id: randomUUID(), order: 2, unitValue: 10, isCompleted: false },
+                { id: randomUUID(), order: 3, unitValue: 10, isCompleted: false },
+                { id: randomUUID(), order: 4, unitValue: 10, isCompleted: false },
+                { id: randomUUID(), order: 5, unitValue: 10, isCompleted: false }
+              ]
+            },
+            {
+              id: "randomUUID()",
+              title: "레그 프레스 머신",
+              subTitle: "Leg press for lower body strength",
+              unit: "repetitions",
+              set: 4,
+              unitValue: 12,
+              wodSets: [
+                { id: randomUUID(), order: 1, unitValue: 12, isCompleted: false },
+                { id: randomUUID(), order: 2, unitValue: 12, isCompleted: false },
+                { id: randomUUID(), order: 3, unitValue: 12, isCompleted: false },
+                { id: randomUUID(), order: 4, unitValue: 12, isCompleted: false }
+              ]
+            },
+            {
+              id: "randomUUID()",
+              title: "레그 익스텐션 머신",
+              subTitle: "Leg extension machine to build quadriceps endurance",
+              unit: "repetitions",
+              set: 4,
+              unitValue: 15,
+              wodSets: [
+                { id: randomUUID(), order: 1, unitValue: 15, isCompleted: false },
+                { id: randomUUID(), order: 2, unitValue: 15, isCompleted: false },
+                { id: randomUUID(), order: 3, unitValue: 15, isCompleted: false },
+                { id: randomUUID(), order: 4, unitValue: 15, isCompleted: false }
+              ]
+            },
+            {
+              id: "randomUUID()",
+              title: "카프 레이즈 머신",
+              subTitle: "Calf raises to develop calf endurance",
+              unit: "repetitions",
+              set: 4,
+              unitValue: 20,
+              wodSets: [
+                { id: randomUUID(), order: 1, unitValue: 20, isCompleted: false },
+                { id: randomUUID(), order: 2, unitValue: 20, isCompleted: false },
+                { id: randomUUID(), order: 3, unitValue: 20, isCompleted: false },
+                { id: randomUUID(), order: 4, unitValue: 20, isCompleted: false }
+              ]
+            }
+          ]
+        },
+        {
+          id: "randomUUID()",
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: "randomUUID()",
+              title: "하체 스트레칭",
+              subTitle: "Lower body stretches to cool down muscles",
+              unit: "minutes",
+              unitValue: 10
+            },
+            {
+              id: "randomUUID()",
+              title: "발목 회전 스트레칭",
+              subTitle: "Ankle rotation stretches for mobility",
+              unit: "minutes",
+              unitValue: 5
+            }
+          ]
+        }
+      ]
+    },    
     {
       id: randomUUID(),
       type: 'default',
