@@ -55,7 +55,6 @@ export class WodService {
       const randomIndex = this.getRandomIndex(dataArray.length);
       return dataArray[randomIndex];
     } else if (method == 'body' && level == 'intermediate') {
-      
       const dataArray = [
         bodyIntermediateA,
         bodyIntermediateB,
@@ -105,14 +104,18 @@ export class WodService {
   getOtherProgramExceptId(method: string, level: string, id: string) {
     if (method == 'body' && level == 'beginner') {
       const dataArray = [bodyBegginerA, bodyBegginerB, bodyBegginerC];
-      const filteredArray: Program[] = dataArray.filter((program) => program.id != id)
+      const filteredArray: Program[] = dataArray.filter(
+        (program) => program.id != id,
+      );
 
       const randomIndex = this.getRandomIndex(filteredArray.length);
 
       return filteredArray[randomIndex];
     } else if (method == 'body' && level == 'elementary') {
       const dataArray = [bodyElementaryA, bodyElementaryB, bodyElementaryC];
-      const filteredArray: Program[] = dataArray.filter((program) => program.id != id)
+      const filteredArray: Program[] = dataArray.filter(
+        (program) => program.id != id,
+      );
 
       const randomIndex = this.getRandomIndex(filteredArray.length);
       return filteredArray[randomIndex];
@@ -122,19 +125,25 @@ export class WodService {
         bodyIntermediateB,
         bodyIntermediateC,
       ];
-      const filteredArray: Program[] = dataArray.filter((program) => program.id != id)
+      const filteredArray: Program[] = dataArray.filter(
+        (program) => program.id != id,
+      );
       const randomIndex = this.getRandomIndex(filteredArray.length);
       return filteredArray[randomIndex];
     } else if (method == 'body' && level == 'advanced') {
       const dataArray = [bodyAdvancedA, bodyAdvancedB, bodyAdvancedC];
-      const filteredArray: Program[] = dataArray.filter((program) => program.id != id)
+      const filteredArray: Program[] = dataArray.filter(
+        (program) => program.id != id,
+      );
       const randomIndex = this.getRandomIndex(filteredArray.length);
       return filteredArray[randomIndex];
     }
 
     if (method == 'machine' && level == 'beginner') {
       const dataArray = [machineBeginnerA, machineBeginnerB, machineBeginnerC];
-      const filteredArray: Program[] = dataArray.filter((program) => program.id != id)
+      const filteredArray: Program[] = dataArray.filter(
+        (program) => program.id != id,
+      );
       const randomIndex = this.getRandomIndex(filteredArray.length);
       return filteredArray[randomIndex];
     } else if (method == 'machine' && level == 'elementary') {
@@ -143,7 +152,9 @@ export class WodService {
         machineElementaryB,
         machineElementaryC,
       ];
-      const filteredArray: Program[] = dataArray.filter((program) => program.id != id)
+      const filteredArray: Program[] = dataArray.filter(
+        (program) => program.id != id,
+      );
 
       const randomIndex = this.getRandomIndex(dataArray.length);
       return filteredArray[randomIndex];
@@ -153,15 +164,18 @@ export class WodService {
         machineIntermediateB,
         machineIntermediateC,
       ];
-      const filteredArray: Program[] = dataArray.filter((program) => program.id != id)
+      const filteredArray: Program[] = dataArray.filter(
+        (program) => program.id != id,
+      );
       const randomIndex = this.getRandomIndex(filteredArray.length);
       return filteredArray[randomIndex];
     } else if (method == 'machine' && level == 'advanced') {
-      
       const dataArray = [machineAdvancedA, machineAdvancedB, machineAdvancedC];
-      const filteredArray: Program[] = dataArray.filter((program) => program.id != id)
+      const filteredArray: Program[] = dataArray.filter(
+        (program) => program.id != id,
+      );
       const randomIndex = this.getRandomIndex(filteredArray.length);
-      
+
       return filteredArray[randomIndex];
     } else {
       throw new BadRequestException('Invalid parameter');
@@ -171,13 +185,13 @@ export class WodService {
   getProgramById(method: string, level: string, id: string) {
     if (method == 'body' && level == 'beginner') {
       const dataArray = [bodyBegginerA, bodyBegginerB, bodyBegginerC];
-      const result = dataArray.find((program) => program.id == id)
-      
+      const result = dataArray.find((program) => program.id == id);
+
       return result;
     } else if (method == 'body' && level == 'elementary') {
       const dataArray = [bodyElementaryA, bodyElementaryB, bodyElementaryC];
-      const result = dataArray.find((program) => program.id == id)
-      
+      const result = dataArray.find((program) => program.id == id);
+
       return result;
     } else if (method == 'body' && level == 'intermediate') {
       const dataArray = [
@@ -185,21 +199,21 @@ export class WodService {
         bodyIntermediateB,
         bodyIntermediateC,
       ];
-      const result = dataArray.find((program) => program.id == id)
-      
+      const result = dataArray.find((program) => program.id == id);
+
       return result;
     } else if (method == 'body' && level == 'advanced') {
       const dataArray = [bodyAdvancedA, bodyAdvancedB, bodyAdvancedC];
-      const result = dataArray.find((program) => program.id == id)
-      
+      const result = dataArray.find((program) => program.id == id);
+
       return result;
     }
 
     if (method == 'machine' && level == 'beginner') {
       const dataArray = [machineBeginnerA, machineBeginnerB, machineBeginnerC];
 
-      const result = dataArray.find((program) => program.id == id)
-      
+      const result = dataArray.find((program) => program.id == id);
+
       return result;
     } else if (method == 'machine' && level == 'elementary') {
       const dataArray = [
@@ -207,8 +221,8 @@ export class WodService {
         machineElementaryB,
         machineElementaryC,
       ];
-      const result = dataArray.find((program) => program.id == id)
-      
+      const result = dataArray.find((program) => program.id == id);
+
       return result;
     } else if (method == 'machine' && level == 'intermediate') {
       const dataArray = [
@@ -216,13 +230,13 @@ export class WodService {
         machineIntermediateB,
         machineIntermediateC,
       ];
-      const result = dataArray.find((program) => program.id == id)
-      
+      const result = dataArray.find((program) => program.id == id);
+
       return result;
     } else if (method == 'machine' && level == 'advanced') {
       const dataArray = [machineAdvancedA, machineAdvancedB, machineAdvancedC];
-      const result = dataArray.find((program) => program.id == id)
-      
+      const result = dataArray.find((program) => program.id == id);
+
       return result;
     } else {
       throw new BadRequestException('Invalid parameter');

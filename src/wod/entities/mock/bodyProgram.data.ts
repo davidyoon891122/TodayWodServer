@@ -6,7 +6,7 @@ import { WodType } from '../type/wod.type';
 
 // ----- Beginner -----
 export const bodyBegginerA: Program = {
-  id: randomUUID(),
+  id: 'c56a9848-0e1e-456f-9046-d1d395126218',
   methodType: MethodType.body,
   level: LevelType.beginner,
   dayWorkouts: [
@@ -818,7 +818,7 @@ export const bodyBegginerA: Program = {
 };
 
 export const bodyBegginerB: Program = {
-  id: randomUUID(),
+  id: 'f2ce40c5-cf5a-408f-9367-368c08d34621',
   methodType: MethodType.body,
   level: LevelType.beginner,
   dayWorkouts: [
@@ -1672,7 +1672,7 @@ export const bodyBegginerB: Program = {
 };
 
 export const bodyBegginerC: Program = {
-  id: randomUUID(),
+  id: '45857469-6ae0-48e9-977f-e3275a88a2c5',
   methodType: MethodType.body,
   level: LevelType.beginner,
   dayWorkouts: [
@@ -2562,7 +2562,7 @@ export const bodyBegginerC: Program = {
 
 // ----- Elementary -----
 export const bodyElementaryA: Program = {
-  id: randomUUID(),
+  id: 'a14f6759-0173-4810-b602-72577f52d7e8',
   methodType: MethodType.body,
   level: LevelType.elementary,
   dayWorkouts: [
@@ -3883,7 +3883,7 @@ export const bodyElementaryA: Program = {
 };
 
 export const bodyElementaryB: Program = {
-  id: randomUUID(),
+  id: 'ea5d040d-7a92-430a-9686-03f0469a0f10',
   methodType: MethodType.body,
   level: LevelType.elementary,
   dayWorkouts: [
@@ -5259,7 +5259,7 @@ export const bodyElementaryB: Program = {
 };
 
 export const bodyElementaryC: Program = {
-  id: randomUUID(),
+  id: '858fc02c-4c01-4da8-8ec2-6644bc6aa9f4',
   methodType: MethodType.body,
   level: LevelType.elementary,
   dayWorkouts: [
@@ -6636,7 +6636,7 @@ export const bodyElementaryC: Program = {
 
 // ----- Intermediate -----
 export const bodyIntermediateA: Program = {
-  id: randomUUID(),
+  id: '3b561d7f-14f4-4a2b-99f7-9f3934ec80a8',
   methodType: MethodType.body,
   level: LevelType.intermediate,
   dayWorkouts: [
@@ -8068,7 +8068,7 @@ export const bodyIntermediateA: Program = {
 };
 
 export const bodyIntermediateB: Program = {
-  id: randomUUID(),
+  id: 'e6012c19-c2c3-45cb-9ab8-a0845f9fe240',
   methodType: MethodType.body,
   level: LevelType.intermediate,
   dayWorkouts: [
@@ -9603,7 +9603,7 @@ export const bodyIntermediateB: Program = {
 };
 
 export const bodyIntermediateC: Program = {
-  id: randomUUID(),
+  id: '9dbcfe99-cec9-44ee-867c-d58d845e0e01',
   methodType: MethodType.body,
   level: LevelType.intermediate,
   dayWorkouts: [
@@ -11139,7 +11139,7 @@ export const bodyIntermediateC: Program = {
 
 // ----- Advanced -----
 export const bodyAdvancedA: Program = {
-  id: randomUUID(),
+  id: '051b733c-a366-4b0b-a41b-67b4ee2c4ecas',
   methodType: MethodType.body,
   level: LevelType.advanced,
   dayWorkouts: [
@@ -12890,7 +12890,7 @@ export const bodyAdvancedA: Program = {
 };
 
 export const bodyAdvancedB: Program = {
-  id: randomUUID(),
+  id: '8146b814-3044-4fee-990c-0795f2105940',
   methodType: MethodType.body,
   level: LevelType.advanced,
   dayWorkouts: [
@@ -14620,7 +14620,7 @@ export const bodyAdvancedB: Program = {
 };
 
 export const bodyAdvancedC: Program = {
-  id: randomUUID(),
+  id: '0029d78c-88b8-4e8c-9705-37fb06195911',
   methodType: MethodType.body,
   level: LevelType.advanced,
   dayWorkouts: [

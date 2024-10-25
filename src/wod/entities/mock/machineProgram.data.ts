@@ -6,7 +6,7 @@ import { WodType } from '../type/wod.type';
 
 // ----- beginner -----
 export const machineBeginnerA: Program = {
-  id: randomUUID(),
+  id: '26c38f6c-cb3f-4545-9c2b-26b64e1e4982',
   methodType: MethodType.machine,
   level: LevelType.beginner,
   dayWorkouts: [
@@ -734,7 +734,7 @@ export const machineBeginnerA: Program = {
 };
 
 export const machineBeginnerB: Program = {
-  id: randomUUID(),
+  id: '7736505e-1542-4161-9751-57b4902bcecc',
   methodType: MethodType.machine,
   level: LevelType.beginner,
   dayWorkouts: [
@@ -1450,7 +1450,7 @@ export const machineBeginnerB: Program = {
 };
 
 export const machineBeginnerC: Program = {
-  id: randomUUID(),
+  id: '387d61ff-81bb-4ffc-8dea-dc6d63efda5e',
   methodType: MethodType.machine,
   level: LevelType.beginner,
   dayWorkouts: [
@@ -2167,7 +2167,7 @@ export const machineBeginnerC: Program = {
 
 // ----- Elementary -----
 export const machineElementaryA: Program = {
-  id: randomUUID(),
+  id: '4a79a1cd-8283-4996-b55f-fba8e0978d1f',
   methodType: MethodType.machine,
   level: LevelType.elementary,
   dayWorkouts: [
@@ -3084,7 +3084,7 @@ export const machineElementaryA: Program = {
 };
 
 export const machineElementaryB: Program = {
-  id: randomUUID(),
+  id: '47a8df19-1d1b-4223-97ad-9ab369ac4b41',
   methodType: MethodType.machine,
   level: LevelType.elementary,
   dayWorkouts: [
@@ -3895,7 +3895,7 @@ export const machineElementaryB: Program = {
 };
 
 export const machineElementaryC: Program = {
-  id: randomUUID(),
+  id: '9b72f0e8-e1e7-4296-bc39-589b27eeaed7',
   methodType: MethodType.machine,
   level: LevelType.elementary,
   dayWorkouts: [
@@ -4480,7 +4480,7 @@ export const machineElementaryC: Program = {
 
 // ----- Intermediate -----
 export const machineIntermediateA: Program = {
-  id: randomUUID(),
+  id: '9713cac9-c184-412c-aee9-7c6c31c7896c',
   methodType: MethodType.machine,
   level: LevelType.intermediate,
   dayWorkouts: [
@@ -5550,7 +5550,7 @@ export const machineIntermediateA: Program = {
 };
 
 export const machineIntermediateB: Program = {
-  id: randomUUID(),
+  id: '2424a04b-de47-4409-bd27-7fedfbeef75d',
   methodType: MethodType.machine,
   level: LevelType.intermediate,
   dayWorkouts: [
@@ -6522,7 +6522,7 @@ export const machineIntermediateB: Program = {
 };
 
 export const machineIntermediateC: Program = {
-  id: randomUUID(),
+  id: 'd0101178-ea21-44c9-9079-c91de0e69077',
   methodType: MethodType.machine,
   level: LevelType.intermediate,
   dayWorkouts: [
@@ -7587,7 +7587,7 @@ export const machineIntermediateC: Program = {
 
 // ----- Advanced -----
 export const machineAdvancedA: Program = {
-  id: randomUUID(),
+  id: '501f6b7f-5703-4e77-aca9-0d708515be9e',
   methodType: MethodType.machine,
   level: LevelType.advanced,
   dayWorkouts: [
@@ -9038,7 +9038,7 @@ export const machineAdvancedA: Program = {
 };
 
 export const machineAdvancedB: Program = {
-  id: randomUUID(),
+  id: '9903a39e-d011-477c-81ed-7ee0b67d478f',
   methodType: MethodType.machine,
   level: LevelType.advanced,
   dayWorkouts: [
@@ -10234,7 +10234,7 @@ export const machineAdvancedB: Program = {
 };
 
 export const machineAdvancedC: Program = {
-  id: randomUUID(),
+  id: '366c0e58-3479-4c3e-9cb9-2d467582dc73',
   methodType: MethodType.machine,
   level: LevelType.advanced,
   dayWorkouts: [
