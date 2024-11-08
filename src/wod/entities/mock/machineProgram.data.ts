@@ -29,6 +29,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -36,6 +37,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
           ],
         },
@@ -50,6 +52,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -78,6 +81,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -106,6 +110,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 23,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -139,6 +144,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -146,6 +152,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -170,6 +177,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -177,6 +185,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -191,6 +200,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -219,6 +229,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -247,6 +258,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -280,6 +292,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -287,6 +300,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -311,6 +325,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -318,6 +333,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
           ],
         },
@@ -332,6 +348,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -360,6 +377,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -388,6 +406,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -421,6 +440,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -428,6 +448,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -452,6 +473,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -459,6 +481,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 15,
             },
           ],
         },
@@ -472,6 +495,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -479,6 +503,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -486,6 +511,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 60,
             },
           ],
         },
@@ -499,6 +525,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -506,6 +533,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -530,6 +558,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -537,6 +566,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -550,6 +580,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Upper body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 70,
             },
             {
               id: randomUUID(),
@@ -558,6 +589,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -586,6 +618,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -619,6 +652,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -626,6 +660,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -650,6 +685,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -657,6 +693,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -670,6 +707,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -677,6 +715,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -685,6 +724,7 @@ export const machineBeginnerA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -718,6 +758,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -725,6 +766,7 @@ export const machineBeginnerA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -757,6 +799,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -764,6 +807,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -778,6 +822,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -806,6 +851,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -834,6 +880,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 23,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -867,6 +914,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -874,6 +922,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -898,6 +947,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -905,6 +955,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
           ],
         },
@@ -919,6 +970,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -947,6 +999,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -975,6 +1028,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1008,6 +1062,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -1015,6 +1070,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1039,6 +1095,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -1046,6 +1103,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
           ],
         },
@@ -1060,6 +1118,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1088,6 +1147,7 @@ export const machineBeginnerB: Program = {
               unit: 'minutes',
               set: 2,
               unitValue: 1,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1110,6 +1170,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1143,6 +1204,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -1150,6 +1212,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1174,6 +1237,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -1181,6 +1245,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -1194,6 +1259,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -1201,6 +1267,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 70,
             },
             {
               id: randomUUID(),
@@ -1208,6 +1275,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 50,
             },
           ],
         },
@@ -1221,6 +1289,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -1228,6 +1297,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1252,6 +1322,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -1259,6 +1330,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1272,6 +1344,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Upper body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 70,
             },
             {
               id: randomUUID(),
@@ -1280,6 +1353,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1308,6 +1382,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1341,6 +1416,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -1348,6 +1424,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1372,6 +1449,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -1379,6 +1457,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -1392,6 +1471,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -1399,6 +1479,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -1407,6 +1488,7 @@ export const machineBeginnerB: Program = {
               unit: 'repetitions',
               set: 2,
               unitValue: 15,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1434,6 +1516,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -1441,6 +1524,7 @@ export const machineBeginnerB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -1473,6 +1557,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -1480,6 +1565,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -1494,6 +1580,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1522,6 +1609,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 23,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1550,6 +1638,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1583,6 +1672,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -1590,6 +1680,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1614,6 +1705,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -1621,6 +1713,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -1635,6 +1728,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1663,6 +1757,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1691,6 +1786,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1724,6 +1820,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -1731,6 +1828,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1755,6 +1853,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -1762,6 +1861,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
           ],
         },
@@ -1776,6 +1876,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1804,6 +1905,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1832,6 +1934,7 @@ export const machineBeginnerC: Program = {
               unit: 'minutes',
               set: 2,
               unitValue: 1,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -1859,6 +1962,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -1866,6 +1970,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1890,6 +1995,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -1897,6 +2003,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -1910,6 +2017,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -1917,6 +2025,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 70,
             },
             {
               id: randomUUID(),
@@ -1924,6 +2033,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 50,
             },
           ],
         },
@@ -1937,6 +2047,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -1944,6 +2055,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1968,6 +2080,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -1975,6 +2088,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -1988,6 +2102,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Upper body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 70,
             },
             {
               id: randomUUID(),
@@ -1996,6 +2111,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2024,6 +2140,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2057,6 +2174,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -2064,6 +2182,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -2088,6 +2207,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -2095,6 +2215,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -2108,6 +2229,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -2115,6 +2237,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -2123,6 +2246,7 @@ export const machineBeginnerC: Program = {
               unit: 'repetitions',
               set: 2,
               unitValue: 15,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2150,6 +2274,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -2157,6 +2282,7 @@ export const machineBeginnerC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -2190,6 +2316,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -2197,6 +2324,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -2204,6 +2332,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -2218,6 +2347,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2246,6 +2376,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2274,6 +2405,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2302,6 +2434,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2335,6 +2468,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -2342,6 +2476,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -2366,6 +2501,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -2373,6 +2509,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -2380,6 +2517,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -2394,6 +2532,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2422,6 +2561,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2450,6 +2590,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2478,6 +2619,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2511,6 +2653,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -2518,6 +2661,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -2542,6 +2686,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -2549,6 +2694,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -2556,6 +2702,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -2570,6 +2717,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2598,6 +2746,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2626,6 +2775,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2654,6 +2804,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2687,6 +2838,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -2694,6 +2846,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -2718,6 +2871,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -2725,6 +2879,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -2732,6 +2887,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -2745,6 +2901,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -2752,6 +2909,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -2759,6 +2917,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -2766,6 +2925,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
           ],
         },
@@ -2779,6 +2939,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -2786,6 +2947,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -2810,6 +2972,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -2817,6 +2980,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -2824,6 +2988,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -2837,6 +3002,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -2845,6 +3011,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2873,6 +3040,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2901,6 +3069,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -2934,6 +3103,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -2941,6 +3111,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -2965,6 +3136,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -2972,6 +3144,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -2979,6 +3152,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -2992,6 +3166,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -2999,6 +3174,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -3007,6 +3183,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3035,6 +3212,7 @@ export const machineElementaryA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 20,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3068,6 +3246,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -3075,6 +3254,7 @@ export const machineElementaryA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -3107,6 +3287,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -3114,6 +3295,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -3121,6 +3303,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -3135,6 +3318,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3163,6 +3347,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3191,6 +3376,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 23,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3219,6 +3405,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3252,6 +3439,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -3259,6 +3447,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -3283,6 +3472,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -3290,6 +3480,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -3297,6 +3488,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -3311,6 +3503,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3339,6 +3532,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3367,6 +3561,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3395,6 +3590,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 23,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3428,6 +3624,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -3435,6 +3632,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -3459,6 +3657,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -3466,6 +3665,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -3473,6 +3673,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -3487,6 +3688,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3515,6 +3717,7 @@ export const machineElementaryB: Program = {
               unit: 'minutes',
               set: 2,
               unitValue: 1,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3537,6 +3740,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3565,6 +3769,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -3598,6 +3803,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -3605,6 +3811,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -3629,6 +3836,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -3636,6 +3844,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -3643,6 +3852,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -3656,6 +3866,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -3663,6 +3874,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -3670,6 +3882,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -3677,6 +3890,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
           ],
         },
@@ -3690,6 +3904,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -3697,6 +3912,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -3721,6 +3937,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -3728,6 +3945,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -3735,6 +3953,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -3748,6 +3967,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -3756,6 +3976,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -3764,6 +3985,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 23,
             },
             {
               id: randomUUID(),
@@ -3772,6 +3994,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
           ],
         },
@@ -3785,6 +4008,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -3792,6 +4016,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -3816,6 +4041,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -3823,6 +4049,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -3830,6 +4057,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -3843,6 +4071,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -3850,6 +4079,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -3858,6 +4088,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -3866,6 +4097,7 @@ export const machineElementaryB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
           ],
         },
@@ -3879,6 +4111,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -3886,6 +4119,7 @@ export const machineElementaryB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -3918,6 +4152,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -3925,6 +4160,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -3932,6 +4168,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
           ],
         },
@@ -3946,6 +4183,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -3954,6 +4192,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -3962,6 +4201,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 23,
             },
             {
               id: randomUUID(),
@@ -3970,6 +4210,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
             },
           ],
         },
@@ -3983,6 +4224,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -3990,6 +4232,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -4014,6 +4257,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -4021,6 +4265,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -4028,6 +4273,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -4042,6 +4288,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -4050,6 +4297,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 23,
             },
             {
               id: randomUUID(),
@@ -4058,6 +4306,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 23,
             },
             {
               id: randomUUID(),
@@ -4066,6 +4315,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
           ],
         },
@@ -4079,6 +4329,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -4086,6 +4337,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -4110,6 +4362,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -4117,6 +4370,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -4124,6 +4378,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -4138,6 +4393,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -4146,6 +4402,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -4154,6 +4411,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 23,
             },
             {
               id: randomUUID(),
@@ -4162,6 +4420,7 @@ export const machineElementaryC: Program = {
               unit: 'minutes',
               set: 2,
               unitValue: 1,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -4175,6 +4434,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -4182,6 +4442,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -4206,6 +4467,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -4213,6 +4475,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -4220,6 +4483,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -4234,6 +4498,7 @@ export const machineElementaryC: Program = {
               unit: 'minutes',
               set: 1,
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -4242,6 +4507,7 @@ export const machineElementaryC: Program = {
               unit: 'minutes',
               set: 1,
               unitValue: 15,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -4250,6 +4516,7 @@ export const machineElementaryC: Program = {
               unit: 'minutes',
               set: 1,
               unitValue: 10,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -4258,6 +4525,7 @@ export const machineElementaryC: Program = {
               unit: 'minutes',
               set: 1,
               unitValue: 10,
+              expectedCalorie: 80,
             },
           ],
         },
@@ -4271,6 +4539,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -4278,6 +4547,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -4302,6 +4572,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -4309,6 +4580,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -4316,6 +4588,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -4330,6 +4603,7 @@ export const machineElementaryC: Program = {
               unit: 'minutes',
               set: 1,
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -4338,6 +4612,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -4346,6 +4621,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -4354,6 +4630,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
           ],
         },
@@ -4367,6 +4644,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -4374,6 +4652,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -4398,6 +4677,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -4405,6 +4685,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -4412,6 +4693,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -4426,6 +4708,7 @@ export const machineElementaryC: Program = {
               unit: 'minutes',
               set: 1,
               unitValue: 15,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -4434,6 +4717,7 @@ export const machineElementaryC: Program = {
               unit: 'minutes',
               set: 1,
               unitValue: 15,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -4442,6 +4726,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
             },
             {
               id: randomUUID(),
@@ -4450,6 +4735,7 @@ export const machineElementaryC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 20,
+              expectedCalorie: 27,
             },
           ],
         },
@@ -4463,6 +4749,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -4470,6 +4757,7 @@ export const machineElementaryC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -4503,6 +4791,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -4510,6 +4799,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -4517,6 +4807,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -4531,6 +4822,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 38,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4565,6 +4857,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 38,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4599,6 +4892,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4627,6 +4921,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4660,6 +4955,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -4667,6 +4963,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -4691,6 +4988,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -4698,6 +4996,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -4705,6 +5004,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -4719,6 +5019,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 38,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4753,6 +5054,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 38,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4787,6 +5089,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4815,6 +5118,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4848,6 +5152,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -4855,6 +5160,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -4863,7 +5169,7 @@ export const machineIntermediateA: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '코어 강화 및 복합 운동',
+      title: '코어 강화 및 안정성',
       subTitle: 'Core Strength & Compound Movements',
       expectedMinute: 30,
       minExpectedCalorie: 455,
@@ -4879,6 +5185,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Core & Compound warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -4886,6 +5193,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Core & Compound warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -4893,6 +5201,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Core & Compound warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -4907,6 +5216,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 38,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4941,6 +5251,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4969,6 +5280,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -4997,6 +5309,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5030,6 +5343,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Core & Compound cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -5037,6 +5351,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Core & Compound cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -5061,6 +5376,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -5068,6 +5384,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -5075,6 +5392,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -5089,6 +5407,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
+              expectedCalorie: 50,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5122,6 +5441,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -5129,6 +5449,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -5137,6 +5458,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 33,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5170,6 +5492,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -5177,6 +5500,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -5201,6 +5525,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -5208,6 +5533,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -5215,6 +5541,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -5229,6 +5556,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 10,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5263,6 +5591,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5291,6 +5620,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5319,6 +5649,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5352,6 +5683,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -5359,6 +5691,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -5383,6 +5716,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -5390,6 +5724,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -5397,6 +5732,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -5411,6 +5747,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 10,
+              expectedCalorie: 38,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5445,6 +5782,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5473,6 +5811,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5501,6 +5840,7 @@ export const machineIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5534,6 +5874,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -5541,6 +5882,7 @@ export const machineIntermediateA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -5556,12 +5898,12 @@ export const machineIntermediateB: Program = {
   dayWorkouts: [
     {
       id: randomUUID(),
-      type: 'start',
-      title: '상체 근력',
-      subTitle: 'Upper Body Strength',
-      expectedMinute: 40,
-      minExpectedCalorie: 405,
-      maxExpectedCalorie: 405,
+      type: 'default',
+      title: '상체 근력 및 폭발력',
+      subTitle: 'Upper Body Strength and Power',
+      expectedMinute: 30,
+      minExpectedCalorie: 411,
+      maxExpectedCalorie: 411,
       workouts: [
         {
           id: randomUUID(),
@@ -5573,6 +5915,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -5580,6 +5923,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -5587,6 +5931,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -5601,6 +5946,33 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 30,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
             },
             {
               id: randomUUID(),
@@ -5609,6 +5981,33 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 30,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
             },
             {
               id: randomUUID(),
@@ -5617,6 +6016,27 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 23,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
             },
             {
               id: randomUUID(),
@@ -5625,6 +6045,27 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 23,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
             },
           ],
         },
@@ -5638,6 +6079,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -5645,11 +6087,12 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
       ],
-    },
+    },    
     {
       id: randomUUID(),
       type: 'default',
@@ -5669,6 +6112,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -5676,6 +6120,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -5683,6 +6128,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -5697,6 +6143,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 38,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5731,6 +6178,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5759,6 +6207,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5787,6 +6236,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5820,6 +6270,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -5827,6 +6278,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -5835,7 +6287,7 @@ export const machineIntermediateB: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '코어 집중 및 복합 운동',
+      title: '코어 강화 및 안정성',
       subTitle: 'Core Focus & Compound Movements',
       expectedMinute: 45,
       minExpectedCalorie: 455,
@@ -5851,6 +6303,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -5858,6 +6311,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -5865,6 +6319,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -5879,6 +6334,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 38,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5913,6 +6369,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5941,6 +6398,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -5969,6 +6427,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6002,6 +6461,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -6009,6 +6469,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -6017,7 +6478,7 @@ export const machineIntermediateB: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '고강도 전신 운동',
+      title: '전신 고강도 운동',
       subTitle: 'High-Intensity Training',
       expectedMinute: 45,
       minExpectedCalorie: 530,
@@ -6033,6 +6494,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Full-body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -6040,6 +6502,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Full-body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -6047,6 +6510,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Full-body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -6061,6 +6525,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
+              expectedCalorie: 50,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6094,6 +6559,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Full-body cardio workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -6101,6 +6567,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Full-body cardio workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 80,
             },
             {
               id: randomUUID(),
@@ -6109,6 +6576,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 33,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6142,6 +6610,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Full-body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -6149,6 +6618,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Full-body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -6173,6 +6643,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -6180,6 +6651,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -6187,6 +6659,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -6201,6 +6674,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6235,6 +6709,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6263,6 +6738,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6291,6 +6767,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6324,6 +6801,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
             {
               id: randomUUID(),
@@ -6331,6 +6809,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -6355,6 +6834,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -6362,6 +6842,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -6369,6 +6850,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -6383,6 +6865,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 38,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6417,6 +6900,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6445,6 +6929,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6473,6 +6958,7 @@ export const machineIntermediateB: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 27,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6506,6 +6992,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -6513,6 +7000,7 @@ export const machineIntermediateB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -6529,7 +7017,7 @@ export const machineIntermediateC: Program = {
     {
       id: randomUUID(),
       type: 'start',
-      title: '상체 근력',
+      title: '상체 근력 및 폭발력',
       subTitle: 'Upper Body Strength',
       expectedMinute: 45,
       minExpectedCalorie: 445,
@@ -6545,6 +7033,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -6552,6 +7041,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -6559,6 +7049,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -6573,6 +7064,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6607,6 +7099,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6641,6 +7134,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 50,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6669,6 +7163,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 50,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6702,6 +7197,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -6709,6 +7205,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -6717,7 +7214,7 @@ export const machineIntermediateC: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '하체 근력',
+      title: '하체 근력 및 폭발력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 45,
       minExpectedCalorie: 425,
@@ -6733,6 +7230,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -6740,6 +7238,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -6747,6 +7246,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -6761,6 +7261,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6795,6 +7296,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 50,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6823,6 +7325,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 10,
+              expectedCalorie: 50,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6851,6 +7354,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6884,6 +7388,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -6891,6 +7396,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -6899,7 +7405,7 @@ export const machineIntermediateC: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '코어 집중 및 복합 운동',
+      title: '코어 강화 및 안정성',
       subTitle: 'Core Focus & Compound Movements',
       expectedMinute: 45,
       minExpectedCalorie: 455,
@@ -6915,6 +7421,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -6922,6 +7429,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -6929,6 +7437,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -6943,6 +7452,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -6977,6 +7487,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7005,6 +7516,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7033,6 +7545,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7066,6 +7579,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -7073,6 +7587,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -7081,7 +7596,7 @@ export const machineIntermediateC: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '고강도 전신 운동',
+      title: '전신 고강도 운동',
       subTitle: 'High-Intensity Training',
       expectedMinute: 45,
       minExpectedCalorie: 540,
@@ -7097,6 +7612,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Full-body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -7104,6 +7620,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Full-body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -7111,6 +7628,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Full-body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -7125,6 +7643,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7158,6 +7677,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'High-intensity workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -7165,6 +7685,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'High-intensity workout',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 100,
             },
             {
               id: randomUUID(),
@@ -7173,6 +7694,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7206,6 +7728,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Full-body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -7213,6 +7736,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -7237,6 +7761,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -7244,6 +7769,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -7251,6 +7777,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -7265,6 +7792,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7299,6 +7827,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7327,6 +7856,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 75,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7355,6 +7885,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 75,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7388,6 +7919,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -7395,6 +7927,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -7419,6 +7952,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -7426,6 +7960,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -7433,6 +7968,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -7447,6 +7983,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7481,6 +8018,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7509,6 +8047,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 60,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7537,6 +8076,7 @@ export const machineIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 15,
+              expectedCalorie: 75,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7570,6 +8110,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -7577,6 +8118,7 @@ export const machineIntermediateC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -7610,6 +8152,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -7617,6 +8160,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -7625,6 +8169,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7677,6 +8222,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 33,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7723,6 +8269,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7769,6 +8316,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 18,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7815,6 +8363,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7866,6 +8415,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -7873,6 +8423,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -7881,7 +8432,7 @@ export const machineAdvancedA: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '하체 근력',
+      title: '하체 근력 및 폭발력',
       subTitle: 'Lower Body Strength',
       expectedMinute: 30,
       minExpectedCalorie: 682,
@@ -7897,6 +8448,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -7905,6 +8457,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7951,6 +8504,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
+              expectedCalorie: 5,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8003,6 +8557,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 33,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8049,6 +8604,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8095,6 +8651,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8141,6 +8698,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8192,6 +8750,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -8199,6 +8758,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -8207,7 +8767,7 @@ export const machineAdvancedA: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '코어 강화',
+      title: '코어 강화 및 안정성',
       subTitle: 'Core Strength',
       expectedMinute: 30,
       minExpectedCalorie: 450,
@@ -8223,6 +8783,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -8230,6 +8791,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -8238,6 +8800,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8289,6 +8852,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Core main workout',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -8297,6 +8861,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8343,6 +8908,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8389,6 +8955,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8440,6 +9007,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -8447,6 +9015,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -8471,6 +9040,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 60,
             },
             {
               id: randomUUID(),
@@ -8478,6 +9048,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -8485,6 +9056,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 40,
             },
           ],
         },
@@ -8499,6 +9071,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 5,
+              expectedCalorie: 33,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8544,6 +9117,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 150,
             },
             {
               id: randomUUID(),
@@ -8551,6 +9125,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Full body main workout',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 120,
             },
             {
               id: randomUUID(),
@@ -8559,6 +9134,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8598,6 +9174,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -8605,6 +9182,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -8613,7 +9191,7 @@ export const machineAdvancedA: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '상체 지구력',
+      title: '상체 지구력 및 근지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 30,
       minExpectedCalorie: 505,
@@ -8629,6 +9207,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -8636,6 +9215,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -8643,6 +9223,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -8657,6 +9238,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8703,6 +9285,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8737,6 +9320,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8771,6 +9355,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8810,6 +9395,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -8817,6 +9403,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -8841,6 +9428,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -8848,6 +9436,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -8855,6 +9444,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -8869,6 +9459,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 5,
+              expectedCalorie: 33,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8915,6 +9506,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8949,6 +9541,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -8983,6 +9576,7 @@ export const machineAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9022,6 +9616,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -9029,6 +9624,7 @@ export const machineAdvancedA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -9045,7 +9641,7 @@ export const machineAdvancedB: Program = {
     {
       id: randomUUID(),
       type: 'start',
-      title: '상체 근력 및 파워',
+      title: '상체 근력 및 폭발력',
       subTitle: 'Upper Body Strength & Power',
       expectedMinute: 60,
       minExpectedCalorie: 685,
@@ -9061,6 +9657,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -9068,6 +9665,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -9075,6 +9673,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -9089,6 +9688,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9129,6 +9729,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 36,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9169,6 +9770,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9203,6 +9805,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9242,6 +9845,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -9249,6 +9853,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -9273,6 +9878,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -9280,6 +9886,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -9287,6 +9894,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -9301,6 +9909,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9341,6 +9950,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9375,6 +9985,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9409,6 +10020,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9448,6 +10060,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -9455,6 +10068,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -9463,7 +10077,7 @@ export const machineAdvancedB: Program = {
     {
       id: randomUUID(),
       type: 'default',
-      title: '코어 집중 및 복합 운동',
+      title: '코어 강화 및 안정성',
       subTitle: 'Core Focus & Compound Movements',
       expectedMinute: 60,
       minExpectedCalorie: 495,
@@ -9479,6 +10093,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -9486,6 +10101,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -9493,6 +10109,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -9507,6 +10124,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9547,6 +10165,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9581,6 +10200,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9615,6 +10235,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 22,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9654,6 +10275,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -9661,6 +10283,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -9685,6 +10308,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Full body cardio',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 60,
             },
             {
               id: randomUUID(),
@@ -9692,6 +10316,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Dynamic warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -9699,6 +10324,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Full body cardio',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 40,
             },
           ],
         },
@@ -9713,6 +10339,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9752,6 +10379,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Full body cardio',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 150,
             },
             {
               id: randomUUID(),
@@ -9759,6 +10387,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Lower body endurance',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 120,
             },
             {
               id: randomUUID(),
@@ -9767,6 +10396,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9806,6 +10436,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -9813,6 +10444,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Breathing exercises',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -9837,6 +10469,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Upper body warm-up cardio',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -9844,6 +10477,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Wrist stretches',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -9851,6 +10485,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Shoulder and chest warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -9865,6 +10500,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9905,6 +10541,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9939,6 +10576,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9973,6 +10611,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10012,6 +10651,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Arm stretches',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -10019,6 +10659,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Neck stretches',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -10043,6 +10684,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Cardio warm-up',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -10050,6 +10692,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Hip mobility warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -10057,6 +10700,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Dynamic warm-up for lower body',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -10071,6 +10715,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10111,6 +10756,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10145,6 +10791,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10179,6 +10826,7 @@ export const machineAdvancedB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 20,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10218,6 +10866,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Lower body stretches',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -10225,6 +10874,7 @@ export const machineAdvancedB: Program = {
               subTitle: 'Ankle mobility stretch',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -10257,6 +10907,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Jump rope for warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -10264,6 +10915,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Shoulder rotation warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -10271,6 +10923,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Push-ups to engage upper body',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
           ],
         },
@@ -10285,6 +10938,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10325,6 +10979,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 36,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10365,6 +11020,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10399,6 +11055,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10438,6 +11095,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Chest stretch for cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -10445,6 +11103,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Upper back stretch',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -10469,6 +11128,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Walking lunges for warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -10476,6 +11136,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Hip thrusts for glute activation',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -10483,6 +11144,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Leg swings to loosen hips',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -10497,6 +11159,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10537,6 +11200,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10577,6 +11241,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10611,6 +11276,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10650,6 +11316,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Hamstring stretch for cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -10657,6 +11324,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Glute stretch for cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -10681,6 +11349,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Trunk rotations for core activation',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -10688,6 +11357,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Bridge for glute and core activation',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 15,
             },
             {
               id: randomUUID(),
@@ -10695,6 +11365,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Side band stretching for flexibility',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -10709,6 +11380,7 @@ export const machineAdvancedC: Program = {
               unit: 'seconds',
               set: 4,
               unitValue: 60,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10743,6 +11415,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 22,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10777,6 +11450,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 22,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10811,6 +11485,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10850,6 +11525,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Lower back stretch for recovery',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -10857,6 +11533,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Core stretching for flexibility',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -10881,6 +11558,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Rowing machine for full-body activation',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 60,
             },
             {
               id: randomUUID(),
@@ -10888,6 +11566,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Dynamic stretching for flexibility and mobility',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 20,
             },
             {
               id: randomUUID(),
@@ -10895,6 +11574,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Burpees to get the heart rate up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 40,
             },
           ],
         },
@@ -10909,6 +11589,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 5,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10948,6 +11629,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Rowing machine for endurance and conditioning',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 150,
             },
             {
               id: randomUUID(),
@@ -10955,6 +11637,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'StepMill for leg endurance and conditioning',
               unit: 'minutes',
               unitValue: 15,
+              expectedCalorie: 120,
             },
             {
               id: randomUUID(),
@@ -10963,6 +11646,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11002,6 +11686,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Full-body stretch to cool down',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -11009,6 +11694,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Deep breathing for recovery',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 5,
             },
           ],
         },
@@ -11033,6 +11719,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Arm bike for upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -11040,6 +11727,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Wrist stretches for mobility',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -11047,6 +11735,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Arm crosses to loosen up shoulder muscles',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -11062,6 +11751,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11102,6 +11792,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11136,6 +11827,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11170,6 +11862,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 25,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11209,6 +11902,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Arm stretches to cool down',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -11216,6 +11910,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Neck stretches for flexibility',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -11240,6 +11935,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Cycling to warm up the lower body',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 50,
             },
             {
               id: randomUUID(),
@@ -11247,6 +11943,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Hip opener stretches to increase mobility',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -11254,6 +11951,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Jump squats to activate lower body muscles',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 20,
             },
           ],
         },
@@ -11268,6 +11966,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 10,
+              expectedCalorie: 40,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11308,6 +12007,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11342,6 +12042,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11376,6 +12077,7 @@ export const machineAdvancedC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 20,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11415,6 +12117,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Lower body stretches to cool down muscles',
               unit: 'minutes',
               unitValue: 10,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -11422,6 +12125,7 @@ export const machineAdvancedC: Program = {
               subTitle: 'Ankle rotation stretches for mobility',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 5,
             },
           ],
         },

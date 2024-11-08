@@ -6,6 +6,7 @@ export class Wod {
   subTitle: string;
   unit: string;
   unitValue: number;
+  expectedCalorie: number;
   set?: number;
   wodSets?: Array<WodSet>;
 }
