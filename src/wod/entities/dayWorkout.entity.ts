@@ -9,4 +9,5 @@ export class DayWorkout {
   minExpectedCalorie: number;
   maxExpectedCalorie: number;
   workouts: Array<Workout>;
+  imageName: string;
 }
