@@ -307,7 +307,7 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -456,7 +456,7 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -542,7 +542,7 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -670,7 +670,7 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -777,7 +777,7 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -1083,7 +1083,7 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -1226,7 +1226,7 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -1312,7 +1312,7 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -1440,7 +1440,7 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -1541,7 +1541,7 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -1847,7 +1847,7 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -1990,7 +1990,7 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -2076,7 +2076,7 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -2204,7 +2204,7 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -2305,7 +2305,7 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -2686,7 +2686,7 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -2872,7 +2872,7 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -2974,7 +2974,7 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -3139,7 +3139,7 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -3283,7 +3283,7 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -3663,7 +3663,7 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -3843,7 +3843,7 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -3945,7 +3945,7 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -4050,7 +4050,7 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -4154,7 +4154,7 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -4374,7 +4374,7 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -4480,7 +4480,7 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -4586,7 +4586,7 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -4692,7 +4692,7 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -4798,7 +4798,7 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -5203,7 +5203,7 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -5395,7 +5395,7 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -5545,7 +5545,7 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -5737,7 +5737,7 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -5929,7 +5929,7 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -6136,7 +6136,7 @@ export const machineIntermediateB: Program = {
         },
       ],
       imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
-    },    
+    },
     {
       id: randomUUID(),
       type: 'default',
@@ -6327,7 +6327,7 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -6519,7 +6519,7 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -6669,7 +6669,7 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -6861,7 +6861,7 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -7053,7 +7053,7 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -7451,7 +7451,7 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -7643,7 +7643,7 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -7793,7 +7793,7 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -7985,7 +7985,7 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -8177,7 +8177,7 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -8819,7 +8819,7 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -9077,7 +9077,7 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -9245,7 +9245,7 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -9467,7 +9467,7 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -9689,7 +9689,7 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -10135,7 +10135,7 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -10351,7 +10351,7 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -10513,7 +10513,7 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -10729,7 +10729,7 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -10945,7 +10945,7 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
@@ -11397,7 +11397,7 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength),
     },
     {
       id: randomUUID(),
@@ -11607,7 +11607,7 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.CoreStrength)
+      imageName: getRandomImageByType(ExerciseType.CoreStrength),
     },
     {
       id: randomUUID(),
@@ -11769,7 +11769,7 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning),
     },
     {
       id: randomUUID(),
@@ -11986,7 +11986,7 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance),
     },
     {
       id: randomUUID(),
@@ -12202,7 +12202,7 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
-      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance),
     },
   ],
 };
