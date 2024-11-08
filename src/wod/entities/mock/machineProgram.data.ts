@@ -3,6 +3,7 @@ import { Program } from '../program.entity';
 import { LevelType } from '../type/level.type';
 import { MethodType } from '../type/method.type';
 import { WodType } from '../type/wod.type';
+import { ExerciseType, getRandomImageByType } from './bodyProgram.data';
 
 // ----- beginner -----
 export const machineBeginnerA: Program = {
@@ -14,7 +15,7 @@ export const machineBeginnerA: Program = {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
-      subTitle: 'Upper Body Strength',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 265,
       maxExpectedCalorie: 265,
@@ -157,12 +158,13 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력',
-      subTitle: 'Lower Body Strength',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 320,
       maxExpectedCalorie: 320,
@@ -305,12 +307,13 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화',
-      subTitle: 'Core Strength',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 295,
       maxExpectedCalorie: 295,
@@ -453,12 +456,13 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 운동',
-      subTitle: 'Full Body Conditioning',
+      subTitle: '전신을 강화하는',
       expectedMinute: 30,
       minExpectedCalorie: 300,
       maxExpectedCalorie: 300,
@@ -538,12 +542,13 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력',
-      subTitle: 'Upper Body Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 30,
       minExpectedCalorie: 305,
       maxExpectedCalorie: 305,
@@ -665,12 +670,13 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력',
-      subTitle: 'Lower Body Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 335,
       maxExpectedCalorie: 335,
@@ -771,6 +777,7 @@ export const machineBeginnerA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -784,7 +791,7 @@ export const machineBeginnerB: Program = {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
-      subTitle: 'Upper Body Strength',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 205,
       maxExpectedCalorie: 205,
@@ -927,12 +934,13 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력',
-      subTitle: 'Lower Body Strength',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 195,
       maxExpectedCalorie: 195,
@@ -1075,12 +1083,13 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화',
-      subTitle: 'Core Strength',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 205,
       maxExpectedCalorie: 205,
@@ -1217,12 +1226,13 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 운동',
-      subTitle: 'Full Body Conditioning',
+      subTitle: '전신을 강화하는',
       expectedMinute: 35,
       minExpectedCalorie: 345,
       maxExpectedCalorie: 345,
@@ -1302,12 +1312,13 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력',
-      subTitle: 'Upper Body Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 30,
       minExpectedCalorie: 310,
       maxExpectedCalorie: 310,
@@ -1429,12 +1440,13 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력',
-      subTitle: 'Lower Body Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 295,
       maxExpectedCalorie: 295,
@@ -1529,6 +1541,7 @@ export const machineBeginnerB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -1542,7 +1555,7 @@ export const machineBeginnerC: Program = {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
-      subTitle: 'Upper Body Strength',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 215,
       maxExpectedCalorie: 215,
@@ -1685,12 +1698,13 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력',
-      subTitle: 'Lower Body Strength',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 225,
       maxExpectedCalorie: 225,
@@ -1833,12 +1847,13 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화',
-      subTitle: 'Core Strength',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 175,
       maxExpectedCalorie: 175,
@@ -1975,12 +1990,13 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 운동',
-      subTitle: 'Full Body Conditioning',
+      subTitle: '전신을 강화하는',
       expectedMinute: 35,
       minExpectedCalorie: 365,
       maxExpectedCalorie: 365,
@@ -2060,12 +2076,13 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력',
-      subTitle: 'Upper Body Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 27,
       minExpectedCalorie: 305,
       maxExpectedCalorie: 305,
@@ -2187,12 +2204,13 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력',
-      subTitle: 'Lower Body Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 34,
       minExpectedCalorie: 280,
       maxExpectedCalorie: 280,
@@ -2287,6 +2305,7 @@ export const machineBeginnerC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -2301,7 +2320,7 @@ export const machineElementaryA: Program = {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
-      subTitle: 'Upper Body Strength',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 295,
       maxExpectedCalorie: 295,
@@ -2481,12 +2500,13 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력',
-      subTitle: 'Lower Body Strength',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 295,
       maxExpectedCalorie: 295,
@@ -2666,12 +2686,13 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화',
-      subTitle: 'Core Strength',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 275,
       maxExpectedCalorie: 275,
@@ -2851,12 +2872,13 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 운동',
-      subTitle: 'Full Body Conditioning',
+      subTitle: '전신을 강화하는',
       expectedMinute: 30,
       minExpectedCalorie: 495,
       maxExpectedCalorie: 495,
@@ -2952,12 +2974,13 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력',
-      subTitle: 'Upper Body Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 30,
       minExpectedCalorie: 310,
       maxExpectedCalorie: 310,
@@ -3116,12 +3139,13 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력',
-      subTitle: 'Lower Body Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 325,
       maxExpectedCalorie: 325,
@@ -3259,6 +3283,7 @@ export const machineElementaryA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -3272,7 +3297,7 @@ export const machineElementaryB: Program = {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
-      subTitle: 'Upper Body Strength',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 428,
       maxExpectedCalorie: 428,
@@ -3452,12 +3477,13 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력',
-      subTitle: 'Lower Body Strength',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 382,
       maxExpectedCalorie: 382,
@@ -3637,12 +3663,13 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화',
-      subTitle: 'Core Strength',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 321,
       maxExpectedCalorie: 321,
@@ -3816,12 +3843,13 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 운동',
-      subTitle: 'Full Body Conditioning',
+      subTitle: '전신을 강화하는',
       expectedMinute: 45,
       minExpectedCalorie: 515,
       maxExpectedCalorie: 515,
@@ -3917,12 +3945,13 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력',
-      subTitle: 'Upper Body Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 45,
       minExpectedCalorie: 480,
       maxExpectedCalorie: 480,
@@ -4021,12 +4050,13 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력',
-      subTitle: 'Lower Body Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 45,
       minExpectedCalorie: 495,
       maxExpectedCalorie: 495,
@@ -4124,6 +4154,7 @@ export const machineElementaryB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -4137,7 +4168,7 @@ export const machineElementaryC: Program = {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력',
-      subTitle: 'Upper Body Strength',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 45,
       minExpectedCalorie: 355,
       maxExpectedCalorie: 355,
@@ -4237,12 +4268,13 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력',
-      subTitle: 'Lower Body Strength',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 45,
       minExpectedCalorie: 345,
       maxExpectedCalorie: 345,
@@ -4342,12 +4374,13 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화',
-      subTitle: 'Core Strength',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 45,
       minExpectedCalorie: 295,
       maxExpectedCalorie: 295,
@@ -4447,12 +4480,13 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 운동',
-      subTitle: 'Full Body Conditioning',
+      subTitle: '전신을 강화하는',
       expectedMinute: 45,
       minExpectedCalorie: 440,
       maxExpectedCalorie: 440,
@@ -4552,12 +4586,13 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력',
-      subTitle: 'Upper Body Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 45,
       minExpectedCalorie: 390,
       maxExpectedCalorie: 390,
@@ -4657,12 +4692,13 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력',
-      subTitle: 'Lower Body Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 45,
       minExpectedCalorie: 395,
       maxExpectedCalorie: 395,
@@ -4762,6 +4798,7 @@ export const machineElementaryC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -4775,8 +4812,8 @@ export const machineIntermediateA: Program = {
     {
       id: randomUUID(),
       type: 'start',
-      title: '상체 근력',
-      subTitle: 'Upper Body Strength',
+      title: '상체 근력 및 폭발력',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 525,
       maxExpectedCalorie: 525,
@@ -4968,12 +5005,13 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
-      title: '하체 근력',
-      subTitle: 'Lower Body Strength',
+      title: '하체 근력 및 폭발력',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 525,
       maxExpectedCalorie: 525,
@@ -5165,12 +5203,13 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화 및 안정성',
-      subTitle: 'Core Strength & Compound Movements',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 455,
       maxExpectedCalorie: 455,
@@ -5356,12 +5395,13 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 고강도 운동',
-      subTitle: 'Full Body High-Intensity Training',
+      subTitle: '전신을 강화하는',
       expectedMinute: 30,
       minExpectedCalorie: 550,
       maxExpectedCalorie: 550,
@@ -5505,12 +5545,13 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력 및 근지구력',
-      subTitle: 'Upper Body Endurance & Muscular Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 30,
       minExpectedCalorie: 435,
       maxExpectedCalorie: 435,
@@ -5696,12 +5737,13 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력 및 근지구력',
-      subTitle: 'Lower Body Endurance & Muscular Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 495,
       maxExpectedCalorie: 495,
@@ -5887,6 +5929,7 @@ export const machineIntermediateA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -5900,7 +5943,7 @@ export const machineIntermediateB: Program = {
       id: randomUUID(),
       type: 'default',
       title: '상체 근력 및 폭발력',
-      subTitle: 'Upper Body Strength and Power',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 411,
       maxExpectedCalorie: 411,
@@ -6092,12 +6135,13 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },    
     {
       id: randomUUID(),
       type: 'default',
-      title: '하체 근력',
-      subTitle: 'Lower Body Strength',
+      title: '하체 근력 및 폭발력',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 45,
       minExpectedCalorie: 455,
       maxExpectedCalorie: 455,
@@ -6283,12 +6327,13 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화 및 안정성',
-      subTitle: 'Core Focus & Compound Movements',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 45,
       minExpectedCalorie: 455,
       maxExpectedCalorie: 455,
@@ -6474,12 +6519,13 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 고강도 운동',
-      subTitle: 'High-Intensity Training',
+      subTitle: '전신을 강화하는',
       expectedMinute: 45,
       minExpectedCalorie: 530,
       maxExpectedCalorie: 530,
@@ -6623,12 +6669,13 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력 및 근지구력',
-      subTitle: 'Upper Body Endurance & Muscular Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 45,
       minExpectedCalorie: 455,
       maxExpectedCalorie: 455,
@@ -6814,12 +6861,13 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력 및 근지구력',
-      subTitle: 'Lower Body Endurance & Muscular Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 45,
       minExpectedCalorie: 485,
       maxExpectedCalorie: 485,
@@ -7005,6 +7053,7 @@ export const machineIntermediateB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -7018,7 +7067,7 @@ export const machineIntermediateC: Program = {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력 및 폭발력',
-      subTitle: 'Upper Body Strength',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 45,
       minExpectedCalorie: 445,
       maxExpectedCalorie: 445,
@@ -7210,12 +7259,13 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력 및 폭발력',
-      subTitle: 'Lower Body Strength',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 45,
       minExpectedCalorie: 425,
       maxExpectedCalorie: 425,
@@ -7401,12 +7451,13 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화 및 안정성',
-      subTitle: 'Core Focus & Compound Movements',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 45,
       minExpectedCalorie: 455,
       maxExpectedCalorie: 455,
@@ -7592,12 +7643,13 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 고강도 운동',
-      subTitle: 'High-Intensity Training',
+      subTitle: '전신을 강화하는',
       expectedMinute: 45,
       minExpectedCalorie: 540,
       maxExpectedCalorie: 540,
@@ -7741,12 +7793,13 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력 및 근지구력',
-      subTitle: 'Upper Body Endurance & Muscular Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 45,
       minExpectedCalorie: 435,
       maxExpectedCalorie: 435,
@@ -7932,12 +7985,13 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력 및 근지구력',
-      subTitle: 'Lower Body Endurance & Muscular Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 45,
       minExpectedCalorie: 465,
       maxExpectedCalorie: 465,
@@ -8123,6 +8177,7 @@ export const machineIntermediateC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -8136,8 +8191,8 @@ export const machineAdvancedA: Program = {
     {
       id: randomUUID(),
       type: 'start',
-      title: '상체 근력',
-      subTitle: 'Upper Body Strength',
+      title: '상체 근력 및 폭발력',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 705,
       maxExpectedCalorie: 705,
@@ -8428,12 +8483,13 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력 및 폭발력',
-      subTitle: 'Lower Body Strength',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 682,
       maxExpectedCalorie: 682,
@@ -8763,12 +8819,13 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화 및 안정성',
-      subTitle: 'Core Strength',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 30,
       minExpectedCalorie: 450,
       maxExpectedCalorie: 450,
@@ -9020,12 +9077,13 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '전신 고강도 운동',
-      subTitle: 'Full Body High-Intensity Training',
+      subTitle: '전신을 강화하는',
       expectedMinute: 30,
       minExpectedCalorie: 705,
       maxExpectedCalorie: 705,
@@ -9187,12 +9245,13 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력 및 근지구력',
-      subTitle: 'Upper Body Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 30,
       minExpectedCalorie: 505,
       maxExpectedCalorie: 505,
@@ -9408,12 +9467,13 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
-      title: '하체 지구력',
-      subTitle: 'Lower Body Endurance',
+      title: '하체 지구력 및 근지구력',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 30,
       minExpectedCalorie: 505,
       maxExpectedCalorie: 505,
@@ -9629,6 +9689,7 @@ export const machineAdvancedA: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -9642,7 +9703,7 @@ export const machineAdvancedB: Program = {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력 및 폭발력',
-      subTitle: 'Upper Body Strength & Power',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 60,
       minExpectedCalorie: 685,
       maxExpectedCalorie: 685,
@@ -9858,12 +9919,13 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력 및 파워',
-      subTitle: 'Lower Body Strength & Power',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 60,
       minExpectedCalorie: 558,
       maxExpectedCalorie: 558,
@@ -10073,12 +10135,13 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화 및 안정성',
-      subTitle: 'Core Focus & Compound Movements',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 60,
       minExpectedCalorie: 495,
       maxExpectedCalorie: 495,
@@ -10288,12 +10351,13 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
-      title: '고강도 전신 운동',
-      subTitle: 'High-Intensity Full Body Workout',
+      title: '전신 고강도 운동',
+      subTitle: '전신을 강화하는',
       expectedMinute: 75,
       minExpectedCalorie: 815,
       maxExpectedCalorie: 815,
@@ -10449,12 +10513,13 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력 및 근지구력',
-      subTitle: 'Upper Body Endurance & Muscular Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 75,
       minExpectedCalorie: 495,
       maxExpectedCalorie: 495,
@@ -10664,12 +10729,13 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력 및 근지구력',
-      subTitle: 'Lower Body Endurance & Muscular Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 90,
       minExpectedCalorie: 555,
       maxExpectedCalorie: 555,
@@ -10879,6 +10945,7 @@ export const machineAdvancedB: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
@@ -10892,7 +10959,7 @@ export const machineAdvancedC: Program = {
       id: randomUUID(),
       type: 'start',
       title: '상체 근력 및 폭발력',
-      subTitle: 'Upper Body Strength & Explosiveness',
+      subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 90,
       minExpectedCalorie: 690,
       maxExpectedCalorie: 690,
@@ -11108,12 +11175,13 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyStrength),
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '하체 근력 및 폭발력',
-      subTitle: 'Lower Body Strength & Explosiveness',
+      subTitle: '강한 하체로 균형을 잡는',
       expectedMinute: 90,
       minExpectedCalorie: 610,
       maxExpectedCalorie: 610,
@@ -11329,12 +11397,13 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '코어 강화 및 안정성',
-      subTitle: 'Core Strength & Stability',
+      subTitle: '강한 코어로 중심을 잡는',
       expectedMinute: 60,
       minExpectedCalorie: 455,
       maxExpectedCalorie: 455,
@@ -11538,12 +11607,13 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.CoreStrength)
     },
     {
       id: randomUUID(),
       type: 'default',
-      title: '고강도 전신 서킷',
-      subTitle: 'High-Intensity Full Body Circuit',
+      title: '전신 고강도 운동',
+      subTitle: '전신을 강화하는',
       expectedMinute: 60,
       minExpectedCalorie: 835,
       maxExpectedCalorie: 835,
@@ -11699,12 +11769,13 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.FullBodyConditioning)
     },
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력 및 근지구력',
-      subTitle: 'Upper Body Endurance & Muscular Endurance',
+      subTitle: '지치지 않는 상체를 기르는',
       expectedMinute: 60,
       minExpectedCalorie: 495,
       maxExpectedCalorie: 495,
@@ -11915,12 +11986,13 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.UpperBodyEndurance)
     },
     {
       id: randomUUID(),
       type: 'end',
       title: '하체 지구력 및 근지구력',
-      subTitle: 'Lower Body Endurance & Muscular Endurance',
+      subTitle: '지구력 있는 하체를 만드는',
       expectedMinute: 60,
       minExpectedCalorie: 565,
       maxExpectedCalorie: 565,
@@ -12130,6 +12202,7 @@ export const machineAdvancedC: Program = {
           ],
         },
       ],
+      imageName: getRandomImageByType(ExerciseType.LowerBodyEndurance)
     },
   ],
 };
