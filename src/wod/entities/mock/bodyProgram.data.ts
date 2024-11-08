@@ -6948,6 +6948,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -6955,6 +6956,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -6963,6 +6965,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7003,6 +7006,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7043,6 +7047,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 8,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7083,6 +7088,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7123,6 +7129,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7168,6 +7175,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 16,
             },
             {
               id: randomUUID(),
@@ -7175,6 +7183,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -7199,6 +7208,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -7207,6 +7217,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 12,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7235,6 +7246,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
+              expectedCalorie: 7,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7275,6 +7287,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 34,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7315,6 +7328,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 19,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7355,6 +7369,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 26,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7395,6 +7410,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 10,
+              expectedCalorie: 24,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7440,6 +7456,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -7447,6 +7464,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
           ],
         },
@@ -7471,6 +7489,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -7479,6 +7498,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7513,6 +7533,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 15,
+              expectedCalorie: 9,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7553,6 +7574,7 @@ export const bodyIntermediateA: Program = {
               unit: 'minutes',
               set: 5,
               unitValue: 2,
+              expectedCalorie: 8,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7593,6 +7615,7 @@ export const bodyIntermediateA: Program = {
               unit: 'minutes',
               set: 5,
               unitValue: 1,
+              expectedCalorie: 4,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7633,6 +7656,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 25,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7673,6 +7697,7 @@ export const bodyIntermediateA: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 10,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -7718,6 +7743,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -7725,1502 +7751,7 @@ export const bodyIntermediateA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: randomUUID(),
-      type: 'default',
-      title: '하체 지구력 및 근지구력',
-      subTitle: 'Lower Body Endurance & Muscular Endurance',
-      expectedMinute: 60,
-      minExpectedCalorie: 565,
-      maxExpectedCalorie: 565,
-      workouts: [
-        {
-          id: randomUUID(),
-          type: WodType.warmUp,
-          wods: [
-            {
-              id: 'randomUUID()',
-              title: '사이클 머신',
-              subTitle: 'Cycling to warm up the lower body',
-              unit: 'minutes',
-              unitValue: 10,
-            },
-            {
-              id: 'randomUUID()',
-              title: '힙 오프너 스트레칭',
-              subTitle: 'Hip opener stretches to increase mobility',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: 'randomUUID()',
-              title: '스쿼트 점프',
-              subTitle: 'Jump squats to activate lower body muscles',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-          ],
-        },
-        {
-          id: 'randomUUID()',
-          type: WodType.main,
-          wods: [
-            {
-              id: 'randomUUID()',
-              title: '박스 점프',
-              subTitle: 'Box jumps for explosive power and endurance',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 10,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: 'randomUUID()',
-              title: '레그 프레스 머신',
-              subTitle: 'Leg press for lower body strength',
-              unit: 'repetitions',
-              set: 4,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: 'randomUUID()',
-              title: '레그 익스텐션 머신',
-              subTitle: 'Leg extension machine to build quadriceps endurance',
-              unit: 'repetitions',
-              set: 4,
-              unitValue: 15,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: 'randomUUID()',
-              title: '카프 레이즈 머신',
-              subTitle: 'Calf raises to develop calf endurance',
-              unit: 'repetitions',
-              set: 4,
-              unitValue: 20,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 20,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 20,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 20,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 20,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: 'randomUUID()',
-          type: WodType.coolDown,
-          wods: [
-            {
-              id: 'randomUUID()',
-              title: '하체 스트레칭',
-              subTitle: 'Lower body stretches to cool down muscles',
-              unit: 'minutes',
-              unitValue: 10,
-            },
-            {
-              id: 'randomUUID()',
-              title: '발목 회전 스트레칭',
-              subTitle: 'Ankle rotation stretches for mobility',
-              unit: 'minutes',
-              unitValue: 5,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: randomUUID(),
-      type: 'default',
-      title: '상체 지구력',
-      subTitle: 'Upper Body Endurance',
-      expectedMinute: 30,
-      minExpectedCalorie: 518,
-      maxExpectedCalorie: 518,
-      workouts: [
-        {
-          id: randomUUID(),
-          type: WodType.warmUp,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '푸시업',
-              subTitle: 'Upper body warm-up',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '점핑잭',
-              subTitle: 'Upper body warm-up',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '암 서클',
-              subTitle: 'Upper body warm-up',
-              unit: 'repetitions',
-              set: 4,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.main,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '체스트 투 바 풀업',
-              subTitle: 'Upper body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 10,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '플라이오메트릭 푸시업',
-              subTitle: 'Upper body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '핸드 릴리즈 푸시업',
-              subTitle: 'Upper body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 15,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '싱글 레그 데드리프트',
-              subTitle: 'Upper body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.coolDown,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '플랭크',
-              subTitle: 'Upper body cooldown',
-              unit: 'minutes',
-              unitValue: 2,
-            },
-            {
-              id: randomUUID(),
-              title: '고양이 소등 스트레치',
-              subTitle: 'Upper body cooldown',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: randomUUID(),
-      type: 'end',
-      title: '하체 지구력',
-      subTitle: 'Lower Body Endurance',
-      expectedMinute: 30,
-      minExpectedCalorie: 452,
-      maxExpectedCalorie: 452,
-      workouts: [
-        {
-          id: randomUUID(),
-          type: WodType.warmUp,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '에어 스쿼트',
-              subTitle: 'Lower body warm-up',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '점핑잭',
-              subTitle: 'Lower body warm-up',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '인치웜 스트레치',
-              subTitle: 'Lower body warm-up',
-              unit: 'repetitions',
-              set: 4,
-              unitValue: 6,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 6,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 6,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 6,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 6,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.main,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '피스톨 스쿼트',
-              subTitle: 'Lower body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 8,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '런지',
-              subTitle: 'Lower body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 15,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '싱글 레그 데드리프트',
-              subTitle: 'Lower body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '케틀벨 스윙',
-              subTitle: 'Lower body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 15,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.coolDown,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '햄스트링 스트레치',
-              subTitle: 'Lower body cooldown',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '스트레칭',
-              subTitle: 'Lower body cooldown',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-          ],
-        },
-      ],
-    },
-  ],
-};
-
-export const bodyIntermediateB: Program = {
-  id: 'e6012c19-c2c3-45cb-9ab8-a0845f9fe240',
-  methodType: MethodType.body,
-  level: LevelType.intermediate,
-  dayWorkouts: [
-    {
-      id: randomUUID(),
-      type: 'start',
-      title: '상체 근력',
-      subTitle: 'Upper Body Strength',
-      expectedMinute: 30,
-      minExpectedCalorie: 551,
-      maxExpectedCalorie: 551,
-      workouts: [
-        {
-          id: randomUUID(),
-          type: WodType.warmUp,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '암 서클',
-              subTitle: 'Upper body warm-up',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '점핑잭',
-              subTitle: 'Upper body warm-up',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '푸시업',
-              subTitle: 'Upper body warm-up',
-              unit: 'repetitions',
-              set: 4,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.main,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '덤벨 스내치',
-              subTitle: 'Upper body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '체스트 투 바 풀업',
-              subTitle: 'Upper body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 8,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '플라이오메트릭 푸시업',
-              subTitle: 'Upper body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '핸드 릴리즈 푸시업',
-              subTitle: 'Upper body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 15,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.coolDown,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '플랭크',
-              subTitle: 'Upper body cooldown',
-              unit: 'minutes',
-              unitValue: 2,
-            },
-            {
-              id: randomUUID(),
-              title: '스트레칭',
-              subTitle: 'Upper body cooldown',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: randomUUID(),
-      type: 'default',
-      title: '하체 근력',
-      subTitle: 'Lower Body Strength',
-      expectedMinute: 30,
-      minExpectedCalorie: 516,
-      maxExpectedCalorie: 516,
-      workouts: [
-        {
-          id: randomUUID(),
-          type: WodType.warmUp,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '에어 스쿼트',
-              subTitle: 'Lower body warm-up',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '버피',
-              subTitle: 'Lower body warm-up',
-              unit: 'repetitions',
-              set: 4,
-              unitValue: 8,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '인치웜 스트레치',
-              subTitle: 'Lower body warm-up',
-              unit: 'repetitions',
-              set: 4,
-              unitValue: 6,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 6,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 6,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 6,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 6,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.main,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '데드리프트',
-              subTitle: 'Lower body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '런지',
-              subTitle: 'Lower body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 15,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 15,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '피스톨 스쿼트',
-              subTitle: 'Lower body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 8,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 8,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '박스 점프',
-              subTitle: 'Lower body main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 10,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 10,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.coolDown,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '레그 레이즈',
-              subTitle: 'Lower body cooldown',
-              unit: 'minutes',
-              unitValue: 2,
-            },
-            {
-              id: randomUUID(),
-              title: '햄스트링 스트레치',
-              subTitle: 'Lower body cooldown',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: randomUUID(),
-      type: 'default',
-      title: '코어 강화',
-      subTitle: 'Core Strength',
-      expectedMinute: 30,
-      minExpectedCalorie: 411,
-      maxExpectedCalorie: 411,
-      workouts: [
-        {
-          id: randomUUID(),
-          type: WodType.warmUp,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '암 서클',
-              subTitle: 'Core warm-up',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '점핑잭',
-              subTitle: 'Core warm-up',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '푸시업',
-              subTitle: 'Core warm-up',
-              unit: 'repetitions',
-              set: 4,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.main,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '플랭크',
-              subTitle: 'Core main workout',
-              unit: 'minutes',
-              set: 5,
-              unitValue: 1,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '사이드 플랭크',
-              subTitle: 'Core main workout',
-              unit: 'minutes',
-              set: 5,
-              unitValue: 1,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 1,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '싯업',
-              subTitle: 'Core main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 25,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 25,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 25,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 25,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 25,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 25,
-                  isCompleted: false,
-                },
-              ],
-            },
-            {
-              id: randomUUID(),
-              title: '버피',
-              subTitle: 'Core main workout',
-              unit: 'repetitions',
-              set: 5,
-              unitValue: 12,
-              wodSets: [
-                {
-                  id: randomUUID(),
-                  order: 1,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 2,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 3,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 4,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-                {
-                  id: randomUUID(),
-                  order: 5,
-                  unitValue: 12,
-                  isCompleted: false,
-                },
-              ],
-            },
-          ],
-        },
-        {
-          id: randomUUID(),
-          type: WodType.coolDown,
-          wods: [
-            {
-              id: randomUUID(),
-              title: '척추 트위스트 스트레치',
-              subTitle: 'Core cooldown',
-              unit: 'minutes',
-              unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '고양이 소등 스트레치',
-              subTitle: 'Core cooldown',
-              unit: 'minutes',
-              unitValue: 3,
+              expectedCalorie: 8,
             },
           ],
         },
@@ -9232,8 +7763,8 @@ export const bodyIntermediateB: Program = {
       title: '전신 운동',
       subTitle: 'Full Body Conditioning',
       expectedMinute: 30,
-      minExpectedCalorie: 635,
-      maxExpectedCalorie: 635,
+      minExpectedCalorie: 558,
+      maxExpectedCalorie: 558,
       workouts: [
         {
           id: randomUUID(),
@@ -9241,17 +7772,19 @@ export const bodyIntermediateB: Program = {
           wods: [
             {
               id: randomUUID(),
+              title: '암 서클',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 10,
+            },
+            {
+              id: randomUUID(),
               title: '점핑잭',
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '케틀벨 스윙',
-              subTitle: 'Full body warm-up',
-              unit: 'minutes',
-              unitValue: 3,
+              expectedCalorie: 36,
             },
             {
               id: randomUUID(),
@@ -9260,6 +7793,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 7,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9300,6 +7834,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9340,6 +7875,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 24,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9380,6 +7916,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9420,6 +7957,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 24,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9465,6 +8003,7 @@ export const bodyIntermediateB: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 16,
             },
             {
               id: randomUUID(),
@@ -9472,19 +8011,20 @@ export const bodyIntermediateB: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
           ],
         },
       ],
-    },
+    },    
     {
       id: randomUUID(),
       type: 'default',
       title: '상체 지구력',
       subTitle: 'Upper Body Endurance',
       expectedMinute: 30,
-      minExpectedCalorie: 496,
-      maxExpectedCalorie: 496,
+      minExpectedCalorie: 518,
+      maxExpectedCalorie: 518,
       workouts: [
         {
           id: randomUUID(),
@@ -9496,21 +8036,24 @@ export const bodyIntermediateB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
-            },
-            {
-              id: randomUUID(),
-              title: '암 서클',
-              subTitle: 'Upper body warm-up',
-              unit: 'minutes',
-              unitValue: 3,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
               title: '점핑잭',
               subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 36,
+            },
+            {
+              id: randomUUID(),
+              title: '암 서클',
+              subTitle: 'Upper body warm-up',
               unit: 'repetitions',
-              set: 3,
+              set: 4,
               unitValue: 12,
+              expectedCalorie: 7,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9530,6 +8073,12 @@ export const bodyIntermediateB: Program = {
                   unitValue: 12,
                   isCompleted: false,
                 },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
               ],
             },
           ],
@@ -9545,6 +8094,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9585,6 +8135,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 18,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9625,6 +8176,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9665,6 +8217,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 26,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9710,6 +8263,7 @@ export const bodyIntermediateB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 16,
             },
             {
               id: randomUUID(),
@@ -9717,19 +8271,20 @@ export const bodyIntermediateB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
           ],
         },
       ],
-    },
+    },    
     {
       id: randomUUID(),
-      type: 'end',
+      type: 'default',
       title: '하체 지구력',
       subTitle: 'Lower Body Endurance',
       expectedMinute: 30,
-      minExpectedCalorie: 392,
-      maxExpectedCalorie: 392,
+      minExpectedCalorie: 452,
+      maxExpectedCalorie: 452,
       workouts: [
         {
           id: randomUUID(),
@@ -9741,13 +8296,15 @@ export const bodyIntermediateB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
-              title: '버피',
+              title: '점핑잭',
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 36,
             },
             {
               id: randomUUID(),
@@ -9756,6 +8313,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
+              expectedCalorie: 6,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9796,6 +8354,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 8,
+              expectedCalorie: 14,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9836,6 +8395,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9876,6 +8436,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 21,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9916,6 +8477,7 @@ export const bodyIntermediateB: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 24,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -9961,6 +8523,7 @@ export const bodyIntermediateB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -9968,6 +8531,1596 @@ export const bodyIntermediateB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
+            },
+          ],
+        },
+      ],
+    },    
+  ],
+};
+
+export const bodyIntermediateB: Program = {
+  id: 'e6012c19-c2c3-45cb-9ab8-a0845f9fe240',
+  methodType: MethodType.body,
+  level: LevelType.intermediate,
+  dayWorkouts: [
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 근력',
+      subTitle: 'Upper Body Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 551,
+      maxExpectedCalorie: 551,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '암 서클',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 30,
+            },
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 45,
+            },
+            {
+              id: randomUUID(),
+              title: '푸시업',
+              subTitle: 'Upper body warm-up',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              expectedCalorie: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '덤벨 스내치',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 30,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '체스트 투 바 풀업',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 8,
+              expectedCalorie: 20,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '플라이오메트릭 푸시업',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 18,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '핸드 릴리즈 푸시업',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 15,
+              expectedCalorie: 16,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '플랭크',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+              expectedCalorie: 16,
+            },
+            {
+              id: randomUUID(),
+              title: '스트레칭',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 10,
+            },
+          ],
+        },
+      ],
+    },    
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '하체 근력',
+      subTitle: 'Lower Body Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 516,
+      maxExpectedCalorie: 516,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '에어 스쿼트',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 28,
+            },
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Lower body warm-up',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 8,
+              expectedCalorie: 15,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '인치웜 스트레치',
+              subTitle: 'Lower body warm-up',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 6,
+              expectedCalorie: 6,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '데드리프트',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 34,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '런지',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 15,
+              expectedCalorie: 19,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '피스톨 스쿼트',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 8,
+              expectedCalorie: 11,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '박스 점프',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 10,
+              expectedCalorie: 20,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '레그 레이즈',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+              expectedCalorie: 8,
+            },
+            {
+              id: randomUUID(),
+              title: '햄스트링 스트레치',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 8,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '코어 강화',
+      subTitle: 'Core Strength',
+      expectedMinute: 30,
+      minExpectedCalorie: 411,
+      maxExpectedCalorie: 411,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '암 서클',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 30,
+            },
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Core warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 45,
+            },
+            {
+              id: randomUUID(),
+              title: '푸시업',
+              subTitle: 'Core warm-up',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              expectedCalorie: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '플랭크',
+              subTitle: 'Core main workout',
+              unit: 'minutes',
+              set: 5,
+              unitValue: 1,
+              expectedCalorie: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '사이드 플랭크',
+              subTitle: 'Core main workout',
+              unit: 'minutes',
+              set: 5,
+              unitValue: 1,
+              expectedCalorie: 4,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 1,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '싯업',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 25,
+              expectedCalorie: 10,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 25,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 25,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 25,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 25,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 25,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Core main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 16,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '척추 트위스트 스트레치',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 8,
+            },
+            {
+              id: randomUUID(),
+              title: '고양이 소등 스트레치',
+              subTitle: 'Core cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 8,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '전신 운동',
+      subTitle: 'Full Body Conditioning',
+      expectedMinute: 30,
+      minExpectedCalorie: 635,
+      maxExpectedCalorie: 635,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 45,
+            },
+            {
+              id: randomUUID(),
+              title: '케틀벨 스윙',
+              subTitle: 'Full body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 60,
+            },
+            {
+              id: randomUUID(),
+              title: '푸시업',
+              subTitle: 'Full body warm-up',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 12,
+              expectedCalorie: 8,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '스러스터',
+              subTitle: 'Full body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 15,
+              expectedCalorie: 30,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '덤벨 스내치',
+              subTitle: 'Full body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 24,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '박스 점프',
+              subTitle: 'Full body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 24,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Full body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 16,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '플랭크',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+              expectedCalorie: 16,
+            },
+            {
+              id: randomUUID(),
+              title: '스트레칭',
+              subTitle: 'Full body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 10,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'default',
+      title: '상체 지구력',
+      subTitle: 'Upper Body Endurance',
+      expectedMinute: 30,
+      minExpectedCalorie: 496,
+      maxExpectedCalorie: 496,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '푸시업',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 28,
+            },
+            {
+              id: randomUUID(),
+              title: '암 서클',
+              subTitle: 'Upper body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 24,
+            },
+            {
+              id: randomUUID(),
+              title: '점핑잭',
+              subTitle: 'Upper body warm-up',
+              unit: 'repetitions',
+              set: 3,
+              unitValue: 12,
+              expectedCalorie: 12,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '체스트 투 바 풀업',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 10,
+              expectedCalorie: 20,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 10,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '플라이오메트릭 푸시업',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 18,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '핸드 릴리즈 푸시업',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 15,
+              expectedCalorie: 16,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '싱글 레그 데드리프트',
+              subTitle: 'Upper body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 26,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '플랭크',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 2,
+              expectedCalorie: 16,
+            },
+            {
+              id: randomUUID(),
+              title: '고양이 소등 스트레치',
+              subTitle: 'Upper body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 8,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: randomUUID(),
+      type: 'end',
+      title: '하체 지구력',
+      subTitle: 'Lower Body Endurance',
+      expectedMinute: 30,
+      minExpectedCalorie: 392,
+      maxExpectedCalorie: 392,
+      workouts: [
+        {
+          id: randomUUID(),
+          type: WodType.warmUp,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '에어 스쿼트',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 28,
+            },
+            {
+              id: randomUUID(),
+              title: '버피',
+              subTitle: 'Lower body warm-up',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 45,
+            },
+            {
+              id: randomUUID(),
+              title: '인치웜 스트레치',
+              subTitle: 'Lower body warm-up',
+              unit: 'repetitions',
+              set: 4,
+              unitValue: 6,
+              expectedCalorie: 6,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 6,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.main,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '피스톨 스쿼트',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 8,
+              expectedCalorie: 11,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 8,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '런지',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 15,
+              expectedCalorie: 13,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '싱글 레그 데드리프트',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 12,
+              expectedCalorie: 21,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 12,
+                  isCompleted: false,
+                },
+              ],
+            },
+            {
+              id: randomUUID(),
+              title: '케틀벨 스윙',
+              subTitle: 'Lower body main workout',
+              unit: 'repetitions',
+              set: 5,
+              unitValue: 15,
+              expectedCalorie: 24,
+              wodSets: [
+                {
+                  id: randomUUID(),
+                  order: 1,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 2,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 3,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 4,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+                {
+                  id: randomUUID(),
+                  order: 5,
+                  unitValue: 15,
+                  isCompleted: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: randomUUID(),
+          type: WodType.coolDown,
+          wods: [
+            {
+              id: randomUUID(),
+              title: '햄스트링 스트레치',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 8,
+            },
+            {
+              id: randomUUID(),
+              title: '스트레칭',
+              subTitle: 'Lower body cooldown',
+              unit: 'minutes',
+              unitValue: 3,
+              expectedCalorie: 8,
             },
           ],
         },
@@ -10000,6 +10153,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -10007,6 +10161,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -10015,6 +10170,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 8,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10055,6 +10211,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10095,6 +10252,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 8,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10135,6 +10293,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 18,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10175,6 +10334,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10220,6 +10380,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 16,
             },
             {
               id: randomUUID(),
@@ -10227,6 +10388,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -10251,6 +10413,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -10259,6 +10422,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10293,6 +10457,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
+              expectedCalorie: 6,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10333,6 +10498,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 34,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10373,6 +10539,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 19,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10413,6 +10580,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 8,
+              expectedCalorie: 11,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10453,6 +10621,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10498,6 +10667,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -10505,6 +10675,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
           ],
         },
@@ -10529,6 +10700,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -10536,6 +10708,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -10544,6 +10717,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 8,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10584,6 +10758,7 @@ export const bodyIntermediateC: Program = {
               unit: 'minutes',
               set: 5,
               unitValue: 2,
+              expectedCalorie: 8,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10624,6 +10799,7 @@ export const bodyIntermediateC: Program = {
               unit: 'minutes',
               set: 5,
               unitValue: 1,
+              expectedCalorie: 4,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10664,6 +10840,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 25,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10704,6 +10881,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10749,6 +10927,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -10756,6 +10935,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
           ],
         },
@@ -10780,6 +10960,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -10787,6 +10968,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 60,
             },
             {
               id: randomUUID(),
@@ -10795,6 +10977,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 12,
+              expectedCalorie: 8,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10835,6 +11018,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10875,6 +11059,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 24,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10915,6 +11100,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 24,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -10955,6 +11141,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11000,6 +11187,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 16,
             },
             {
               id: randomUUID(),
@@ -11007,6 +11195,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -11031,6 +11220,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -11038,6 +11228,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 24,
             },
             {
               id: randomUUID(),
@@ -11046,6 +11237,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 3,
               unitValue: 12,
+              expectedCalorie: 12,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11080,6 +11272,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11120,6 +11313,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 12,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11160,6 +11354,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11200,6 +11395,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 26,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11245,6 +11441,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 16,
             },
             {
               id: randomUUID(),
@@ -11252,6 +11449,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
           ],
         },
@@ -11276,6 +11474,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -11283,6 +11482,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -11291,6 +11491,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 6,
+              expectedCalorie: 6,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11331,6 +11532,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 8,
+              expectedCalorie: 11,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11371,6 +11573,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11411,6 +11614,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 12,
+              expectedCalorie: 21,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11451,6 +11655,7 @@ export const bodyIntermediateC: Program = {
               unit: 'repetitions',
               set: 5,
               unitValue: 15,
+              expectedCalorie: 24,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11496,6 +11701,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -11503,6 +11709,7 @@ export const bodyIntermediateC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 3,
+              expectedCalorie: 8,
             },
           ],
         },
@@ -11536,6 +11743,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -11543,6 +11751,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -11551,6 +11760,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11603,6 +11813,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11649,6 +11860,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11695,6 +11907,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 18,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11741,6 +11954,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11792,6 +12006,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 16,
             },
             {
               id: randomUUID(),
@@ -11799,6 +12014,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -11823,6 +12039,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -11831,6 +12048,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 4,
               unitValue: 8,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11865,6 +12083,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
+              expectedCalorie: 5,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11917,6 +12136,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 34,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -11963,6 +12183,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12009,6 +12230,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12055,6 +12277,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12106,6 +12329,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -12113,6 +12337,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -12137,6 +12362,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -12144,6 +12370,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -12152,6 +12379,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12204,6 +12432,7 @@ export const bodyAdvancedA: Program = {
               unit: 'minutes',
               set: 5,
               unitValue: 2,
+              expectedCalorie: 8,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12244,6 +12473,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12290,6 +12520,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 25,
+              expectedCalorie: 8,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12336,6 +12567,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12387,6 +12619,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -12394,6 +12627,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -12418,6 +12652,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -12425,6 +12660,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 60,
             },
             {
               id: randomUUID(),
@@ -12433,6 +12669,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 6,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12485,6 +12722,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12531,6 +12769,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 34,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12577,6 +12816,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12623,6 +12863,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12674,6 +12915,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 2,
+              expectedCalorie: 16,
             },
             {
               id: randomUUID(),
@@ -12681,6 +12923,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -12705,6 +12948,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -12712,6 +12956,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -12720,6 +12965,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12772,6 +13018,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12818,6 +13065,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12864,6 +13112,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12910,6 +13159,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 22,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -12961,6 +13211,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -12968,6 +13219,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -12992,6 +13244,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -12999,6 +13252,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -13007,6 +13261,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
+              expectedCalorie: 4,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13059,6 +13314,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13105,6 +13361,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13151,6 +13408,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 22,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13197,6 +13455,7 @@ export const bodyAdvancedA: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13248,6 +13507,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -13255,6 +13515,7 @@ export const bodyAdvancedA: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -13287,6 +13548,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -13294,6 +13556,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -13302,6 +13565,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13354,6 +13618,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13400,6 +13665,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13446,6 +13712,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13492,6 +13759,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13543,6 +13811,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -13550,6 +13819,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -13574,6 +13844,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -13582,6 +13853,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13628,6 +13900,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
+              expectedCalorie: 5,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13680,6 +13953,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 34,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13726,6 +14000,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13772,6 +14047,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13818,6 +14094,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13869,6 +14146,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -13876,6 +14154,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -13900,6 +14179,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -13907,6 +14187,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -13915,6 +14196,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -13966,6 +14248,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Core main workout',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -13974,6 +14257,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14020,6 +14304,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14066,6 +14351,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14117,6 +14403,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -14124,6 +14411,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -14148,6 +14436,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -14155,6 +14444,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 60,
             },
             {
               id: randomUUID(),
@@ -14163,6 +14453,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 6,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14215,6 +14506,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14261,6 +14553,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14307,6 +14600,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 34,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14353,6 +14647,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14404,6 +14699,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -14411,6 +14707,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -14435,6 +14732,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -14442,6 +14740,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -14450,6 +14749,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14502,6 +14802,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14548,6 +14849,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 18,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14594,6 +14896,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14640,6 +14943,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 22,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14691,6 +14995,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -14698,6 +15003,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -14722,6 +15028,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -14729,6 +15036,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -14737,6 +15045,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
+              expectedCalorie: 4,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14789,6 +15098,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14835,6 +15145,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14881,6 +15192,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14927,6 +15239,7 @@ export const bodyAdvancedB: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -14978,6 +15291,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -14985,6 +15299,7 @@ export const bodyAdvancedB: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -15017,6 +15332,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -15024,6 +15340,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -15032,6 +15349,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15084,6 +15402,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 33,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15130,6 +15449,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15176,6 +15496,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 18,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15222,6 +15543,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15273,6 +15595,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -15280,6 +15603,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -15304,6 +15628,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -15312,6 +15637,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 10,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15358,6 +15684,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
+              expectedCalorie: 5,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15410,6 +15737,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 33,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15456,6 +15784,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15502,6 +15831,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15548,6 +15878,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15599,6 +15930,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 8,
             },
             {
               id: randomUUID(),
@@ -15606,6 +15938,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -15630,6 +15963,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 30,
             },
             {
               id: randomUUID(),
@@ -15637,6 +15971,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Core warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -15645,6 +15980,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15697,6 +16033,7 @@ export const bodyAdvancedC: Program = {
               unit: 'minutes',
               set: 1,
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -15705,6 +16042,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15751,6 +16089,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15797,6 +16136,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 30,
+              expectedCalorie: 10,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15848,6 +16188,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -15855,6 +16196,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Core cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -15879,6 +16221,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -15886,6 +16229,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Full body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 60,
             },
             {
               id: randomUUID(),
@@ -15894,6 +16238,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 6,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15946,6 +16291,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 33,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -15992,6 +16338,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 30,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16038,6 +16385,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 34,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16084,6 +16432,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16135,6 +16484,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -16142,6 +16492,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Full body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -16166,6 +16517,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 35,
             },
             {
               id: randomUUID(),
@@ -16173,6 +16525,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Upper body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -16181,6 +16534,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 15,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16233,6 +16587,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16279,6 +16634,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 18,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16325,6 +16681,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 17,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16371,6 +16728,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 22,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16422,6 +16780,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 4,
+              expectedCalorie: 32,
             },
             {
               id: randomUUID(),
@@ -16429,6 +16788,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Upper body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
@@ -16453,6 +16813,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 28,
             },
             {
               id: randomUUID(),
@@ -16460,6 +16821,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Lower body warm-up',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 45,
             },
             {
               id: randomUUID(),
@@ -16468,6 +16830,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 8,
+              expectedCalorie: 4,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16520,6 +16883,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 12,
+              expectedCalorie: 13,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16566,6 +16930,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16612,6 +16977,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 15,
+              expectedCalorie: 16,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16658,6 +17024,7 @@ export const bodyAdvancedC: Program = {
               unit: 'repetitions',
               set: 6,
               unitValue: 20,
+              expectedCalorie: 20,
               wodSets: [
                 {
                   id: randomUUID(),
@@ -16709,6 +17076,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
             {
               id: randomUUID(),
@@ -16716,6 +17084,7 @@ export const bodyAdvancedC: Program = {
               subTitle: 'Lower body cooldown',
               unit: 'minutes',
               unitValue: 5,
+              expectedCalorie: 10,
             },
           ],
         },
