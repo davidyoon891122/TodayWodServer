@@ -321,18 +321,20 @@ export class WodService {
   }
 
   private getExerciseTypeFromTitle(title: string): ExerciseTypeKeys {
-    if (title.includes('상체')) {
-      return title.includes('지구력')
-        ? ExerciseType.UpperBodyEndurance
-        : ExerciseType.UpperBodyStrength;
-    } else if (title.includes('하체')) {
-      return title.includes('지구력')
-        ? ExerciseType.LowerBodyEndurance
-        : ExerciseType.LowerBodyStrength;
-    } else if (title.includes('코어')) {
+    if (title.includes('상체 근련')) {
+      return ExerciseType.UpperBodyStrength;
+    } else if (title.includes('하체 근력')) {
+      return ExerciseType.LowerBodyStrength;
+    } else if (title.includes('코어 강화')) {
       return ExerciseType.CoreStrength;
-    } else {
+    } else if (title.includes('전신 운동')) {
       return ExerciseType.FullBodyConditioning;
+    } else if (title.includes('상체 지구력')) {
+      return ExerciseType.UpperBodyEndurance
+    } else if (title.includes('하체 지구력')) {
+      return ExerciseType.LowerBodyEndurance;
+    } else {
+      return ExerciseType.UpperBodyStrength;
     }
   }
 }
