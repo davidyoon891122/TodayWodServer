@@ -8629,7 +8629,7 @@ export const bodyIntermediateB: Program = {
   dayWorkouts: [
     {
       id: randomUUID(),
-      type: 'default',
+      type: 'start',
       title: '상체 근력 및 폭발력',
       subTitle: '튼튼한 상체를 만드는',
       expectedMinute: 30,
