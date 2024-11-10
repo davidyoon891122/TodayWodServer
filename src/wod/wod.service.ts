@@ -28,32 +28,37 @@ import {
   machineIntermediateC,
 } from './entities/mock/machineProgram.data';
 import { Program } from './entities/program.entity';
+import {
+  Gender,
+  GenderType,
+  GenderTypeKeys,
+} from './entities/type/gender.type';
 
 @Injectable()
 export class WodService {
-  findRandomProgram(method: string, level: string) {
-    return this.getRandomProgram(method, level);
+  findRandomProgram(method: string, level: string, gender: Gender) {
+    return this.getRandomProgram(method, level, gender);
   }
 
-  findOtherProgram(method: string, level: string, id: string) {
-    return this.getOtherProgramExceptId(method, level, id);
+  findOtherProgram(method: string, level: string, gender: Gender, id: string) {
+    return this.getOtherProgramExceptId(method, level, gender, id);
   }
 
-  findProgram(method: string, level: string, id: string) {
-    return this.getProgramById(method, level, id);
+  findProgram(method: string, level: string, gender: Gender, id: string) {
+    return this.getProgramById(method, level, gender, id);
   }
 
-  getRandomProgram(method: string, level: string) {
+  getRandomProgram(method: string, level: string, gender: Gender) {
     if (method == 'body' && level == 'beginner') {
       const dataArray = [bodyBegginerA, bodyBegginerB, bodyBegginerC];
-
       const randomIndex = this.getRandomIndex(dataArray.length);
-      return dataArray[randomIndex];
+      const result = this.applyGenderToProgram(dataArray[randomIndex], gender);
+      return result;
     } else if (method == 'body' && level == 'elementary') {
       const dataArray = [bodyElementaryA, bodyElementaryB, bodyElementaryC];
-
       const randomIndex = this.getRandomIndex(dataArray.length);
-      return dataArray[randomIndex];
+      const result = this.applyGenderToProgram(dataArray[randomIndex], gender);
+      return result;
     } else if (method == 'body' && level == 'intermediate') {
       const dataArray = [
         bodyIntermediateA,
@@ -62,19 +67,22 @@ export class WodService {
       ];
       const randomIndex = this.getRandomIndex(dataArray.length);
 
-      return dataArray[randomIndex];
+      const result = this.applyGenderToProgram(dataArray[randomIndex], gender);
+      return result;
     } else if (method == 'body' && level == 'advanced') {
       const dataArray = [bodyAdvancedA, bodyAdvancedB, bodyAdvancedC];
 
       const randomIndex = this.getRandomIndex(dataArray.length);
-      return dataArray[randomIndex];
+      const result = this.applyGenderToProgram(dataArray[randomIndex], gender);
+      return result;
     }
 
     if (method == 'machine' && level == 'beginner') {
       const dataArray = [machineBeginnerA, machineBeginnerB, machineBeginnerC];
 
       const randomIndex = this.getRandomIndex(dataArray.length);
-      return dataArray[randomIndex];
+      const result = this.applyGenderToProgram(dataArray[randomIndex], gender);
+      return result;
     } else if (method == 'machine' && level == 'elementary') {
       const dataArray = [
         machineElementaryA,
@@ -83,7 +91,8 @@ export class WodService {
       ];
 
       const randomIndex = this.getRandomIndex(dataArray.length);
-      return dataArray[randomIndex];
+      const result = this.applyGenderToProgram(dataArray[randomIndex], gender);
+      return result;
     } else if (method == 'machine' && level == 'intermediate') {
       const dataArray = [
         machineIntermediateA,
@@ -91,17 +100,24 @@ export class WodService {
         machineIntermediateC,
       ];
       const randomIndex = this.getRandomIndex(dataArray.length);
-      return dataArray[randomIndex];
+      const result = this.applyGenderToProgram(dataArray[randomIndex], gender);
+      return result;
     } else if (method == 'machine' && level == 'advanced') {
       const dataArray = [machineAdvancedA, machineAdvancedB, machineAdvancedC];
       const randomIndex = this.getRandomIndex(dataArray.length);
-      return dataArray[randomIndex];
+      const result = this.applyGenderToProgram(dataArray[randomIndex], gender);
+      return result;
     } else {
       throw new BadRequestException('Invalid parameter');
     }
   }
 
-  getOtherProgramExceptId(method: string, level: string, id: string) {
+  getOtherProgramExceptId(
+    method: string,
+    level: string,
+    gender: Gender,
+    id: string,
+  ) {
     if (method == 'body' && level == 'beginner') {
       const dataArray = [bodyBegginerA, bodyBegginerB, bodyBegginerC];
       const filteredArray: Program[] = dataArray.filter(
@@ -109,8 +125,11 @@ export class WodService {
       );
 
       const randomIndex = this.getRandomIndex(filteredArray.length);
-
-      return filteredArray[randomIndex];
+      const result = this.applyGenderToProgram(
+        filteredArray[randomIndex],
+        gender,
+      );
+      return result;
     } else if (method == 'body' && level == 'elementary') {
       const dataArray = [bodyElementaryA, bodyElementaryB, bodyElementaryC];
       const filteredArray: Program[] = dataArray.filter(
@@ -118,7 +137,11 @@ export class WodService {
       );
 
       const randomIndex = this.getRandomIndex(filteredArray.length);
-      return filteredArray[randomIndex];
+      const result = this.applyGenderToProgram(
+        filteredArray[randomIndex],
+        gender,
+      );
+      return result;
     } else if (method == 'body' && level == 'intermediate') {
       const dataArray = [
         bodyIntermediateA,
@@ -129,14 +152,22 @@ export class WodService {
         (program) => program.id != id,
       );
       const randomIndex = this.getRandomIndex(filteredArray.length);
-      return filteredArray[randomIndex];
+      const result = this.applyGenderToProgram(
+        filteredArray[randomIndex],
+        gender,
+      );
+      return result;
     } else if (method == 'body' && level == 'advanced') {
       const dataArray = [bodyAdvancedA, bodyAdvancedB, bodyAdvancedC];
       const filteredArray: Program[] = dataArray.filter(
         (program) => program.id != id,
       );
       const randomIndex = this.getRandomIndex(filteredArray.length);
-      return filteredArray[randomIndex];
+      const result = this.applyGenderToProgram(
+        filteredArray[randomIndex],
+        gender,
+      );
+      return result;
     }
 
     if (method == 'machine' && level == 'beginner') {
@@ -145,7 +176,11 @@ export class WodService {
         (program) => program.id != id,
       );
       const randomIndex = this.getRandomIndex(filteredArray.length);
-      return filteredArray[randomIndex];
+      const result = this.applyGenderToProgram(
+        filteredArray[randomIndex],
+        gender,
+      );
+      return result;
     } else if (method == 'machine' && level == 'elementary') {
       const dataArray = [
         machineElementaryA,
@@ -157,7 +192,11 @@ export class WodService {
       );
 
       const randomIndex = this.getRandomIndex(dataArray.length);
-      return filteredArray[randomIndex];
+      const result = this.applyGenderToProgram(
+        filteredArray[randomIndex],
+        gender,
+      );
+      return result;
     } else if (method == 'machine' && level == 'intermediate') {
       const dataArray = [
         machineIntermediateA,
@@ -168,7 +207,11 @@ export class WodService {
         (program) => program.id != id,
       );
       const randomIndex = this.getRandomIndex(filteredArray.length);
-      return filteredArray[randomIndex];
+      const result = this.applyGenderToProgram(
+        filteredArray[randomIndex],
+        gender,
+      );
+      return result;
     } else if (method == 'machine' && level == 'advanced') {
       const dataArray = [machineAdvancedA, machineAdvancedB, machineAdvancedC];
       const filteredArray: Program[] = dataArray.filter(
@@ -176,22 +219,28 @@ export class WodService {
       );
       const randomIndex = this.getRandomIndex(filteredArray.length);
 
-      return filteredArray[randomIndex];
+      const result = this.applyGenderToProgram(
+        filteredArray[randomIndex],
+        gender,
+      );
+      return result;
     } else {
       throw new BadRequestException('Invalid parameter');
     }
   }
 
-  getProgramById(method: string, level: string, id: string) {
+  getProgramById(method: string, level: string, gender: Gender, id: string) {
     if (method == 'body' && level == 'beginner') {
       const dataArray = [bodyBegginerA, bodyBegginerB, bodyBegginerC];
-      const result = dataArray.find((program) => program.id == id);
+      const selectedResult = dataArray.find((program) => program.id == id);
 
+      const result = this.applyGenderToProgram(selectedResult, gender);
       return result;
     } else if (method == 'body' && level == 'elementary') {
       const dataArray = [bodyElementaryA, bodyElementaryB, bodyElementaryC];
-      const result = dataArray.find((program) => program.id == id);
+      const selectedResult = dataArray.find((program) => program.id == id);
 
+      const result = this.applyGenderToProgram(selectedResult, gender);
       return result;
     } else if (method == 'body' && level == 'intermediate') {
       const dataArray = [
@@ -199,21 +248,24 @@ export class WodService {
         bodyIntermediateB,
         bodyIntermediateC,
       ];
-      const result = dataArray.find((program) => program.id == id);
+      const selectedResult = dataArray.find((program) => program.id == id);
 
+      const result = this.applyGenderToProgram(selectedResult, gender);
       return result;
     } else if (method == 'body' && level == 'advanced') {
       const dataArray = [bodyAdvancedA, bodyAdvancedB, bodyAdvancedC];
-      const result = dataArray.find((program) => program.id == id);
+      const selectedResult = dataArray.find((program) => program.id == id);
 
+      const result = this.applyGenderToProgram(selectedResult, gender);
       return result;
     }
 
     if (method == 'machine' && level == 'beginner') {
       const dataArray = [machineBeginnerA, machineBeginnerB, machineBeginnerC];
 
-      const result = dataArray.find((program) => program.id == id);
+      const selectedResult = dataArray.find((program) => program.id == id);
 
+      const result = this.applyGenderToProgram(selectedResult, gender);
       return result;
     } else if (method == 'machine' && level == 'elementary') {
       const dataArray = [
@@ -221,8 +273,9 @@ export class WodService {
         machineElementaryB,
         machineElementaryC,
       ];
-      const result = dataArray.find((program) => program.id == id);
+      const selectedResult = dataArray.find((program) => program.id == id);
 
+      const result = this.applyGenderToProgram(selectedResult, gender);
       return result;
     } else if (method == 'machine' && level == 'intermediate') {
       const dataArray = [
@@ -230,13 +283,15 @@ export class WodService {
         machineIntermediateB,
         machineIntermediateC,
       ];
-      const result = dataArray.find((program) => program.id == id);
+      const selectedResult = dataArray.find((program) => program.id == id);
 
+      const result = this.applyGenderToProgram(selectedResult, gender);
       return result;
     } else if (method == 'machine' && level == 'advanced') {
       const dataArray = [machineAdvancedA, machineAdvancedB, machineAdvancedC];
-      const result = dataArray.find((program) => program.id == id);
+      const selectedResult = dataArray.find((program) => program.id == id);
 
+      const result = this.applyGenderToProgram(selectedResult, gender);
       return result;
     } else {
       throw new BadRequestException('Invalid parameter');
@@ -246,5 +301,15 @@ export class WodService {
   getRandomIndex(count: number) {
     const randomIndex = Math.floor(Math.random() * count);
     return randomIndex;
+  }
+
+  private applyGenderToProgram(program: Program, gender: Gender): Program {
+    return {
+      ...program,
+      dayWorkouts: program.dayWorkouts.map((workout) => ({
+        ...workout,
+        imageName: `${workout.imageName}${GenderType[gender]}`,
+      })),
+    };
   }
 }
