@@ -12,6 +12,9 @@ import {
   bodyIntermediateA,
   bodyIntermediateB,
   bodyIntermediateC,
+  ExerciseType,
+  ExerciseTypeKeys,
+  getRandomImageByType,
 } from './entities/mock/bodyProgram.data';
 import {
   machineAdvancedA,
@@ -304,12 +307,32 @@ export class WodService {
   }
 
   private applyGenderToProgram(program: Program, gender: Gender): Program {
+    const copiedProgram = JSON.parse(JSON.stringify(program));
+
     return {
-      ...program,
-      dayWorkouts: program.dayWorkouts.map((workout) => ({
+      ...copiedProgram,
+      dayWorkouts: copiedProgram.dayWorkouts.map((workout) => ({
         ...workout,
-        imageName: `${workout.imageName}${GenderType[gender]}`,
+        imageName: `${getRandomImageByType(
+          this.getExerciseTypeFromTitle(workout.title),
+        )}${GenderType[gender]}`,
       })),
     };
+  }
+
+  private getExerciseTypeFromTitle(title: string): ExerciseTypeKeys {
+    if (title.includes('상체')) {
+      return title.includes('지구력')
+        ? ExerciseType.UpperBodyEndurance
+        : ExerciseType.UpperBodyStrength;
+    } else if (title.includes('하체')) {
+      return title.includes('지구력')
+        ? ExerciseType.LowerBodyEndurance
+        : ExerciseType.LowerBodyStrength;
+    } else if (title.includes('코어')) {
+      return ExerciseType.CoreStrength;
+    } else {
+      return ExerciseType.FullBodyConditioning;
+    }
   }
 }
