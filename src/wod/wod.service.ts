@@ -314,7 +314,7 @@ export class WodService {
       dayWorkouts: copiedProgram.dayWorkouts.map((workout) => ({
         ...workout,
         imageName: `${getRandomImageByType(
-          this.getExerciseTypeFromTitle(workout.title),
+          this.getExerciseTypeFromTitle(workout.title), program.methodType
         )}${GenderType[gender]}`,
       })),
     };
